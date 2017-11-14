@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>OperationgSystem_Support &mdash; LSN Documents  documentation</title>
+  <title>Receiving an “ip_conntrack: table full” error. &mdash; LSN Documents  documentation</title>
   
 
   
@@ -36,8 +36,9 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="LSN Documents  documentation" href="index.html"/>
-        <link rel="next" title="Linux_Support" href="Linux_Support.html"/>
-        <link rel="prev" title="API" href="API.html"/> 
+        <link rel="up" title="Linux_Support" href="Linux_Support.html"/>
+        <link rel="next" title="What will this script do?" href="Hardening_CentOS.html"/>
+        <link rel="prev" title="Linux_Support" href="Linux_Support.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -90,8 +91,12 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Limestone_Addon_Services.html">Limestone_Addon_Services</a></li>
 <li class="toctree-l1"><a class="reference internal" href="OnePortal.html">OnePortal</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">OperationgSystem_Support</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Linux_Support.html">Linux_Support</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="OperationgSystem_Support.html">OperationgSystem_Support</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Linux_Support.html">Linux_Support</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Receiving an “ip_conntrack: table full” error.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Hardening_CentOS.html">What will this script do?</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Windows_Support.html">Windows_Support</a></li>
 </ul>
 </li>
@@ -143,13 +148,17 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>OperationgSystem_Support</li>
+          <li><a href="OperationgSystem_Support.html">OperationgSystem_Support</a> &raquo;</li>
+        
+          <li><a href="Linux_Support.html">Linux_Support</a> &raquo;</li>
+        
+      <li>Receiving an “ip_conntrack: table full” error.</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/OperationgSystem_Support.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/ip_conntrack_table_full.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -162,19 +171,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="operationgsystem-support">
-<h1>OperationgSystem_Support<a class="headerlink" href="#operationgsystem-support" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Linux_Support.html">Linux_Support</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ip_conntrack_table_full.html">Receiving an “ip_conntrack: table full” error.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Hardening_CentOS.html">What will this script do?</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="Windows_Support.html">Windows_Support</a></li>
-</ul>
+  <div class="section" id="receiving-an-ip-conntrack-table-full-error">
+<h1>Receiving an “ip_conntrack: table full” error.<a class="headerlink" href="#receiving-an-ip-conntrack-table-full-error" title="Permalink to this headline">¶</a></h1>
+<p>On OpenVZ/HyperVM machines sometimes the ip_conntrack table will become full and drop packets. You can tell if it is doing this by looking in your /var/log/messages file.</p>
+<p>To find out the current limit run.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="s1">&#39;sysctl net.ipv4.netfilter.ip_conntrack_max&#39;</span>
+</pre></div>
 </div>
+<dl class="docutils">
+<dt>Then to increase it edit::</dt>
+<dd>print ‘/etc/sysctl.conf’</dd>
+<dt>and change the line::</dt>
+<dd>print ‘net.ipv4.netfilter.ip_conntrack_max = to a higher number’</dd>
+</dl>
+<p>Adding 5000 or 10000 to the current max should be fine. You do not need to go crazy.</p>
+<dl class="docutils">
+<dt>Once you have saved the file, to reload the new configuration run::</dt>
+<dd>print ‘sysctl -p’</dd>
+</dl>
+<p>You should be all set and the machine should not be dropping any packets.</p>
 </div>
 
 
@@ -187,10 +202,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="Linux_Support.html" class="btn btn-neutral float-right" title="Linux_Support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="Hardening_CentOS.html" class="btn btn-neutral float-right" title="What will this script do?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="API.html" class="btn btn-neutral" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="Linux_Support.html" class="btn btn-neutral" title="Linux_Support" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
