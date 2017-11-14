@@ -15,20 +15,13 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   Limestone_Addon_Services
+   OnePortal
+   OperationgSystem_Support
    Abuse
-   API
-   DDoS_Protection
-   DNS_rDNS
-   KVMoIP
    LSN_Cloud_CDN
-   Linux_Support
-   NAS
    Resellers
-   Software
-   SSL_Certificates
    TOS_AUP
-   VPN
-   Windows_Support
 
 
 Indices and tables
