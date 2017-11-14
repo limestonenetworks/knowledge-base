@@ -5,4 +5,4 @@ OnePortal
    :maxdepth: 2
    :caption: Contents:
 
-   API
+   API.rst

@@ -5,5 +5,5 @@ LSN_Cloud_CDN
    :maxdepth: 2
    :caption: Contents:
 
-   Cloud_Solutions
-   Content_Delivery_Network
+   Cloud_Solutions.rst
+   Content_Delivery_Network.rst
