@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>How do I use iptables? &mdash; LSN Documents  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="LSN Documents  documentation" href="../../index.html"/>
+        <link rel="up" title="Linux_Support" href="../linux_support.html"/>
+        <link rel="next" title="Windows_Support" href="../windows_support.html"/>
+        <link rel="prev" title="How do I set up SSH key authentication?" href="ssh_key_auth.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> LSN Documents
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../oneportal/index.html">OnePortal</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">OperationgSystem_Support</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../linux_support.html">Linux_Support</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ip_conntrack_table_full.html">Receiving an “ip_conntrack: table full” error.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hardening_centos.html">Hardening CentOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="local_yum_repo.html">How do I set up the local yum repo?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_root_passwd.html">How can I reset my root password?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="schedule_fsck_run_auto.html">How do I schedule FSCK to run automatically?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ssh_key_auth.html">How do I set up SSH key authentication?</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">How do I use iptables?</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#description-basic-overview">Description / Basic Overview</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../windows_support.html">Windows_Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../abuse/index.html">Adbuse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lsn_cloud_cdn/index.html">LSN_Cloud_CDN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resellers/index.html">Resellers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tos_aup/index.html">TOS_AUP</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">LSN Documents</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">OperationgSystem_Support</a> &raquo;</li>
+        
+          <li><a href="../linux_support.html">Linux_Support</a> &raquo;</li>
+        
+      <li>How do I use iptables?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/operatingsystem_support/linux_support/iptables.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="how-do-i-use-iptables">
+<h1>How do I use iptables?<a class="headerlink" href="#how-do-i-use-iptables" title="Permalink to this headline">¶</a></h1>
+<p><strong>Warning</strong></p>
+<p>Modifying rules on your server can cause the server to become inaccessible on port 22 (SSH) or your alternate SSH port.</p>
+<div class="section" id="description-basic-overview">
+<h2>Description / Basic Overview<a class="headerlink" href="#description-basic-overview" title="Permalink to this headline">¶</a></h2>
+<p>Everyone in the IT industry is very concerned with security, especially if you’re a linux administrator. Many linux distributions come with several services that you may not use or ever need but they’re running on your server anyways. This can cause many security threats. With the slightest knowledge of Linux firewalls (iptables) you can secure your linux server very quickly and efficiently. In this article, I will either introduce you into iptables for your first time, or help you become more efficient with iptables if you’ve worked with them in the past.</p>
+<p>As network packets flow in and out of the network interface card, they are intercepted, analyzed and manipulated as ruled through the Linux firewall. As the packet flows through the firewall rules and it reaches a rule that is matches, it stops there and doesn’t continue through the rest of the rule set. For instance, if there is a rule to drop all packets coming in through port 25 and then a rule directly after that says “accept 192.168.1.25 on port 25” That packet will be dropped once it hits the first rule. It won’t even know there is a second rule. Read the first example further down this article. There is an example. There have been 3 main linux firewalls widely used, and they are as follows:</p>
+<p><strong>History</strong></p>
+<ul class="simple">
+<li>Ipfwadm which was merged into Linux 2.0. It can filter TCP, UDP, and ICMP packets only. It also does not support QoS. You can “insert” and “remove” rules. This doesn’t make it the most user friendly linux firewall on the planet.</li>
+<li>Ipchains which was merged into Linux 2.2. It supports QoS, Is very flexible with the configuration, as it has “replace” along with “insert” and “remove”. This makes ipchains more user friendly. Ipchains also has the ability to filter any IP protocol explicitly, not just TCP, UDP, and ICMP.</li>
+<li>Iptables. This iptables project was begun in 1998 by Rusty Russell. This was merged into Linux 2.3 in 2000, and is still widely used today. It supports stateful IPv4, and IPv6 protocol tracking and IPv4 application tracking. Has built-in PORTFW functionality. It is also very user friendly, as you’ll soon find out.</li>
+</ul>
+<p><strong>Getting started</strong></p>
+<p>Let’s take a look at our iptables list, see what is currently under there!</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">sbin</span><span class="o">/</span><span class="n">iptables</span> <span class="o">-</span><span class="n">L</span> <span class="o">-</span><span class="n">n</span>
+</pre></div>
+</div>
+<p>That will show you your complete iptables rule list, with as much information as possible about each rule. Let’s break down what you’re looking at you should see something similar to: (note: the following is an empty table you may have some rules in yours).</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Chain</span> <span class="n">INPUT</span> <span class="p">(</span><span class="n">policy</span> <span class="n">ACCEPT</span><span class="p">)</span>
+<span class="n">target</span>         <span class="n">prot</span>            <span class="n">opt</span>             <span class="n">source</span>               <span class="n">destination</span>
+
+<span class="n">Chain</span> <span class="n">FORWARD</span> <span class="p">(</span><span class="n">policy</span> <span class="n">ACCEPT</span><span class="p">)</span>
+<span class="n">target</span>         <span class="n">prot</span>            <span class="n">opt</span>             <span class="n">source</span>               <span class="n">destination</span>
+
+<span class="n">Chain</span> <span class="n">OUTPUT</span> <span class="p">(</span><span class="n">policy</span> <span class="n">ACCEPT</span><span class="p">)</span>
+<span class="n">target</span>         <span class="n">prot</span>            <span class="n">opt</span>             <span class="n">source</span>               <span class="n">destination</span>
+</pre></div>
+</div>
+<p>Flushing your list of rules can be good if you would like to rewrite your rules completely as I’ve done plenty of times in the past. You can “flush” every rule under iptables by doing</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">sbin</span><span class="o">/</span><span class="n">iptables</span> <span class="o">-</span><span class="n">F</span>
+</pre></div>
+</div>
+<p>However you may want to only flush all the rules under the INPUT, FORWARD or OUTPUT chain. You can specify which chain to flush by either of the following:</p>
+<ul class="simple">
+<li>/sbin/iptables -F INPUT</li>
+<li>/sbin/iptables -F FORWARD</li>
+<li>/sbin/iptables -F OUTPUT</li>
+</ul>
+<p>Additionally, you can save your rules so that when you restart your linux server, the current rules will become active once again. You can save by doing</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">iptables</span> <span class="n">save</span>
+</pre></div>
+</div>
+<p>If you would wish for iptables to STOP running, you can initiate the following command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#&gt; /etc/init.d/iptables stop</span>
+
+<span class="n">Flushing</span> <span class="n">firewall</span> <span class="n">rules</span><span class="p">:</span>                                       <span class="p">[</span>  <span class="n">OK</span>  <span class="p">]</span>
+<span class="n">Setting</span> <span class="n">chains</span> <span class="n">to</span> <span class="n">policy</span> <span class="n">ACCEPT</span><span class="p">:</span> <span class="nb">filter</span>                    <span class="p">[</span>  <span class="n">OK</span>  <span class="p">]</span>
+<span class="n">Unloading</span> <span class="n">iptables</span> <span class="n">modules</span><span class="p">:</span>                                    <span class="p">[</span>  <span class="n">OK</span>  <span class="p">]</span>
+<span class="n">Of</span> <span class="n">course</span><span class="p">,</span> <span class="n">you</span> <span class="n">can</span> <span class="n">START</span> <span class="n">iptables</span> <span class="n">by</span> <span class="n">doing</span>
+<span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">iptables</span> <span class="n">start</span>
+<span class="n">Applying</span> <span class="n">iptables</span> <span class="n">firewall</span> <span class="n">rules</span><span class="p">:</span>                      <span class="p">[</span>  <span class="n">OK</span>  <span class="p">]</span>
+</pre></div>
+</div>
+<p>As for an example, I have one below:</p>
+<p><strong>Example</strong></p>
+<p>You want to simply deny every IP address a connection to your SMTP server (tcp port 25) except for the IP: 192.168.1.25.</p>
+<p>The two commands for this are as follows</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">sbin</span><span class="o">/</span><span class="n">iptables</span> <span class="o">-</span><span class="n">I</span> <span class="n">INPUT</span> <span class="o">-</span><span class="n">p</span> <span class="n">tcp</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">25</span> <span class="o">-</span><span class="n">j</span> <span class="n">DROP</span>
+<span class="o">/</span><span class="n">sbin</span><span class="o">/</span><span class="n">iptables</span> <span class="o">-</span><span class="n">I</span> <span class="n">INPUT</span> <span class="o">-</span><span class="n">s</span> <span class="mf">192.168</span><span class="o">.</span><span class="mf">1.25</span> <span class="o">-</span><span class="n">p</span> <span class="n">tcp</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">25</span> <span class="o">-</span><span class="n">j</span> <span class="n">ACCEPT</span>
+</pre></div>
+</div>
+<p>The reason I put the “DROP” command in before the “ACCEPT” is because a rule is entered into the database, and then a rule that is added next is added directly above the last one entered. Putting the DROP command before the ACCEPT let’s the ACCEPT rule be read before the DROP command. Let’s break the rest of these commands down:</p>
+<p><strong>The first command:</strong></p>
+<ul class="simple">
+<li><strong>-I</strong> is to insert the rule into the top of the chain. You would use -A to insert it at the bottom of the chain. (Note: you can do “–D” instead to delete the rule from the chain as well.)</li>
+<li><strong>INPUT</strong> is the chain name. Input is the chain that is followed by “incoming” packets.</li>
+<li><strong>-p</strong> is the protocol argument, you specify the protocol type with this command, notice the “tcp” after the “-p”</li>
+<li><strong>–ddport</strong> is what specifies which port to filter. In this case it is 25, because that is what port SMTP runs on (by default).</li>
+<li><strong>-j</strong> is the argument that specifies what to do with the packet. In this case, it’s going to be “DROPPED”</li>
+</ul>
+<p><strong>The second command:</strong></p>
+<p>The only difference between this command and the first one, is there is a (-s) “src” IP address specified and the –j argument is “ACCEPT”.</p>
+<p>Since a (-s) “src” address was not specified in the first argument, it assumed that every address is to be dropped.</p>
+<p>Ok, let’s save our current work.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#&gt; /etc/init.d/iptables save</span>
+<span class="o">/</span><span class="n">sbin</span><span class="o">/</span><span class="n">iptables</span> <span class="o">-</span><span class="n">L</span> <span class="o">-</span><span class="n">n</span>
+<span class="n">Chain</span> <span class="n">INPUT</span> <span class="p">(</span><span class="n">policy</span> <span class="n">ACCEPT</span><span class="p">)</span>
+<span class="n">target</span>     <span class="n">prot</span> <span class="n">opt</span> <span class="n">source</span>               <span class="n">destination</span>
+<span class="n">ACCEPT</span>          <span class="n">tcp</span>  <span class="o">--</span>  <span class="mf">192.168</span><span class="o">.</span><span class="mf">1.25</span>         <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="o">/</span><span class="mi">0</span>           <span class="n">tcp</span> <span class="n">dpt</span><span class="p">:</span><span class="mi">25</span>
+<span class="n">DROP</span>            <span class="n">tcp</span>  <span class="o">--</span>  <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="o">/</span><span class="mi">0</span>                <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="o">/</span><span class="mi">0</span>           <span class="n">tcp</span> <span class="n">dpt</span><span class="p">:</span><span class="mi">25</span>
+</pre></div>
+</div>
+<p>Notice: how the “ACCEPT” rule is above the “DROP” rule.</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../windows_support.html" class="btn btn-neutral float-right" title="Windows_Support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ssh_key_auth.html" class="btn btn-neutral" title="How do I set up SSH key authentication?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ajinkya Wadekar.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

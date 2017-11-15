@@ -8,7 +8,7 @@ Yum Configuration
 
 Edit the config::
 
-vi /etc/yum.repos.d/CentOS-Base.repo
+ vi /etc/yum.repos.d/CentOS-Base.repo
 
 And put the following::
 

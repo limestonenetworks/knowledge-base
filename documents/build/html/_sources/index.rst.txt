@@ -15,13 +15,13 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
-   Limestone_Addon_Services/index
-   OnePortal/index
-   OperationgSystem_Support/index
-   Abuse/index
-   LSN_Cloud_CDN/index
-   Resellers/index
-   TOS_AUP/index
+   limestone_addon_services/index
+   oneportal/index
+   operatingsystem_support/index
+   abuse/index
+   lsn_cloud_cdn/index
+   resellers/index
+   tos_aup/index
 
 
 Indices and tables

@@ -1,0 +1,292 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>How do I schedule FSCK to run automatically? &mdash; LSN Documents  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="LSN Documents  documentation" href="../../index.html"/>
+        <link rel="up" title="Linux_Support" href="../linux_support.html"/>
+        <link rel="next" title="How do I set up SSH key authentication?" href="ssh_key_auth.html"/>
+        <link rel="prev" title="How can I reset my root password?" href="reset_root_passwd.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> LSN Documents
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../oneportal/index.html">OnePortal</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">OperationgSystem_Support</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../linux_support.html">Linux_Support</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ip_conntrack_table_full.html">Receiving an “ip_conntrack: table full” error.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hardening_centos.html">Hardening CentOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="local_yum_repo.html">How do I set up the local yum repo?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_root_passwd.html">How can I reset my root password?</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">How do I schedule FSCK to run automatically?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ssh_key_auth.html">How do I set up SSH key authentication?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iptables.html">How do I use iptables?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../windows_support.html">Windows_Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../abuse/index.html">Adbuse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lsn_cloud_cdn/index.html">LSN_Cloud_CDN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resellers/index.html">Resellers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tos_aup/index.html">TOS_AUP</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">LSN Documents</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">OperationgSystem_Support</a> &raquo;</li>
+        
+          <li><a href="../linux_support.html">Linux_Support</a> &raquo;</li>
+        
+      <li>How do I schedule FSCK to run automatically?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/operatingsystem_support/linux_support/schedule_fsck_run_auto.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="how-do-i-schedule-fsck-to-run-automatically">
+<h1>How do I schedule FSCK to run automatically?<a class="headerlink" href="#how-do-i-schedule-fsck-to-run-automatically" title="Permalink to this headline">¶</a></h1>
+<p><strong>Using cron to schedule an FSCK</strong></p>
+<ul class="simple">
+<li>By default, a fsck is forced after 30 reboots or 180 days.</li>
+<li><dl class="first docutils">
+<dt>To avoid issues such as this, we recommend scheduling fsck to run a basic weekly check on your server to identify and flag errors.</dt>
+<dd><ul class="first last">
+<li>Doing so can prevent unwanted, forced fsck from running in situations such as this one.</li>
+<li>You can then, plan for a time at which a full system fsck is run.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>For more info on running fsck please click <a class="reference external" href="https://en.wikipedia.org/wiki/Fsck">https://en.wikipedia.org/wiki/Fsck</a>.</p>
+<p>For more info on scheduling tasks under Linux click <a class="reference external" href="https://en.wikipedia.org/wiki/Cron">https://en.wikipedia.org/wiki/Cron</a>.</p>
+<p>The following example syntax will add a weekly scheduled <strong>scan-only</strong> fsck and output the results to a log file for review.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">crontab</span> <span class="o">-</span><span class="n">e</span>
+</pre></div>
+</div>
+<p>enter the following text substituting <em>partition</em> with your root partition.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@weekly</span> <span class="n">fsck</span> <span class="o">-</span><span class="n">nv</span> <span class="o">/</span><span class="n">dev</span><span class="o">/*</span><span class="n">partition</span><span class="o">*</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">weekly_fsck</span>
+</pre></div>
+</div>
+<p>When saving, do not change the existing file name.</p>
+<dl class="docutils">
+<dt><strong>PLEASE NOTE–</strong> <code class="docutils literal"><span class="pre">This</span> <span class="pre">does</span> <span class="pre">not</span> <span class="pre">eliminate</span> <span class="pre">the</span> <span class="pre">need</span> <span class="pre">for</span> <span class="pre">a</span> <span class="pre">fsck.</span></code></dt>
+<dd><code class="docutils literal"><span class="pre">You</span> <span class="pre">will</span> <span class="pre">still</span> <span class="pre">need</span> <span class="pre">to</span> <span class="pre">schedule</span> <span class="pre">a</span> <span class="pre">manual</span> <span class="pre">fsck.</span></code></dd>
+</dl>
+<p><strong>To Force a fsck using shutdown command</strong></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">shutdown</span> <span class="o">-</span><span class="n">rF</span> <span class="n">now</span>
+</pre></div>
+</div>
+<p>Bypass a fsck using shutdown command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">shutdown</span> <span class="o">-</span><span class="n">rf</span> <span class="n">now</span>
+</pre></div>
+</div>
+<p><code class="docutils literal"><span class="pre">Note:</span> <span class="pre">Capital</span> <span class="pre">F</span> <span class="pre">will</span> <span class="pre">Force</span> <span class="pre">a</span> <span class="pre">FSCK,</span> <span class="pre">lowercase</span> <span class="pre">f</span> <span class="pre">skips</span> <span class="pre">a</span> <span class="pre">FSCK.</span></code></p>
+<p>FSCK will sometimes require the root password be entered on the console in order to repair some issues with the filesystem, contact our support department if your server does not respond after a reboot.</p>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ssh_key_auth.html" class="btn btn-neutral float-right" title="How do I set up SSH key authentication?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="reset_root_passwd.html" class="btn btn-neutral" title="How can I reset my root password?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ajinkya Wadekar.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

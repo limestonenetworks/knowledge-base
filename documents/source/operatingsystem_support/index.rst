@@ -5,5 +5,5 @@ OperationgSystem_Support
    :maxdepth: 2
    :caption: Contents:
 
-   Linux_Support.rst
-   Windows_Support.rst
+   linux_support.rst
+   windows_support.rst
