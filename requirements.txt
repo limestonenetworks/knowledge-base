@@ -1,0 +1,7 @@
+# Keep hacking first, it pulls in the right versions of flake8, mccabe and pyflakes
+virtualenv # MIT
+
+sphinx # BSD
+doc8 # Apache-2.0
+sphinxmark # Apache-2.0
+sphinx_rtd_theme
