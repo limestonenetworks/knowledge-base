@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'LSN Documents'
+project = u'LimestoneNetworks Knowledge Base'
 copyright = u'2017, Ajinkya Wadekar'
 author = u'Ajinkya Wadekar'
 
