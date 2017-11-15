@@ -6,8 +6,9 @@
 Welcome to LimestoneNetworks Documentation!
 ===========================================
 
-We are a Dedicated and Cloud Hosting company. Here you will find information about most of the technologies 
-we use in managing our infrastructure. We use Openstack for our cloud, Ansible for orchestration etc. 
+We are a Dedicated and Cloud Hosting company. Here you will find information
+about most of the technologies we use in managing our infrastructure.
+We use Openstack for our cloud, Ansible for orchestration etc.
  
 Guide
 ^^^^^

@@ -1,4 +1,4 @@
-OperationgSystem_Support
+OperatingSystem_Support
 ========================
 
 .. toctree::

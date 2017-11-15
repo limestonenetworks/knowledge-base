@@ -1,7 +1,8 @@
 How do I set up the local yum repo?
 ===================================
 
-You may now get your CentOS installs and updates locally on Limestone’s network. When routed correctly, it will not count against your monthly bandwidth.
+You may now get your CentOS installs and updates locally on Limestone’s network.
+When routed correctly, it will not count against your monthly bandwidth.
 
 Yum Configuration
 ^^^^^^^^^^^^^^^^^
@@ -17,13 +18,13 @@ And put the following::
  baseurl=http://centos.mirror.cust.lstn.net/$releasever/os/$basearch/
  gpgcheck=1
  gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
-  
+ 
  [update]
  name=CentOS-$releasever - Updates
  baseurl=http://centos.mirror.cust.lstn.net/$releasever/updates/$basearch/
  gpgcheck=1
  gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
- 
+
  [addons]
  name=CentOS-$releasever - Addons
  baseurl=http://centos.mirror.cust.lstn.net/$releasever/addons/$basearch/
@@ -35,7 +36,7 @@ And put the following::
  baseurl=http://centos.mirror.cust.lstn.net/$releasever/extras/$basearch/
  gpgcheck=1
  gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
- 
+
  [centosplus]
  name=CentOS-$releasever - Plus
  baseurl=http://centos.mirror.cust.lstn.net/$releasever/centosplus/$basearch/
@@ -52,7 +53,7 @@ Correctly Route the Traffic
 If you want this to save after reboot, add to /etc/sysconfig/network-scripts/route-private-device
 
 ::
-  
+ 
  10.0.0.0/8 dev <strong>private-interface</strong>
 
 **Example**::
