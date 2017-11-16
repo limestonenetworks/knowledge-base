@@ -5,3 +5,4 @@ sphinx # BSD
 doc8 # Apache-2.0
 sphinxmark # Apache-2.0
 sphinx_rtd_theme
+sphinx_py3doc_enhanced_theme
