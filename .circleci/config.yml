@@ -1,0 +1,50 @@
+---
+verison: 2
+jobs:
+  linters:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - run:
+          name: Run docs build
+          command: |
+            . venv/bin/activate
+            doc8 doc
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - run:
+          name: Run docs build
+          command: |
+            . venv/bin/activate
+            sphinx-build doc/source doc/build
+      - store_artifacts:
+          path: doc/build
+          destination: doc
+workflows:
+  version: 2
+  ci_jobs:
+    jobs:
+      - linters
+      - build
