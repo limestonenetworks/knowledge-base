@@ -1,7 +1,9 @@
 Receiving an “ip_conntrack: table full” error.
 ==============================================
 
-On OpenVZ/HyperVM machines sometimes the ip_conntrack table will become full and drop packets. You can tell if it is doing this by looking in your /var/log/messages file.
+On OpenVZ/HyperVM machines sometimes the ip_conntrack table will become full
+and drop packets. You can tell if it is doing this by looking in your
+``/var/log/messages`` file.
 
 **To find out the current limit run**::
 
