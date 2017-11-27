@@ -1,7 +1,8 @@
 How do I enable ICMP echos in Server 2008?
 ==========================================
 
-To enable ICMP replies in Windows Server 2008 you must allow ICMP packets through the windows Firewall
+To enable ICMP replies in Windows Server 2008 you must allow ICMP packets
+through the windows Firewall
 
 1. Press Start
 2. Goto -> Administrative tools

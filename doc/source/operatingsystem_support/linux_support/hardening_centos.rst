@@ -26,7 +26,7 @@ What will this script do?
    - Set up Connection Tracking
 
 - Install DDoS Deflate
-   - More information about DDoS Deflate is available at 
+   - More information about DDoS Deflate is available at
        http://deflate.medialayer.com/
 
 - Install CHKROOTKIT
@@ -36,7 +36,8 @@ What will this script do?
 
 - Install rkhunter (Root Kit Hunter)
    - Scheduled to check daily for issues and email your Admin Email
-   - More information about rkhunter is available at http://www.rootkit.nl/projects/rootkit_hunter.html
+   - More information about rkhunter is available at
+     http://www.rootkit.nl/projects/rootkit_hunter.html
 
 - Install LSM (Linux Socket Monitor)
    - Runs in the background and watches for changes in sockets
@@ -57,7 +58,8 @@ What will this script do?
 
     vim centos.sh
 
-``You may customize TCPPORTS and UDPPORTS, however the defaults in there now should cover most common processes.``
+``You may customize TCPPORTS and UDPPORTS, however the defaults in there now
+should cover most common processes.``
 
 
 **Run the Script**::

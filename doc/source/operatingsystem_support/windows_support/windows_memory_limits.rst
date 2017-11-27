@@ -1,7 +1,9 @@
 Windows Memory Limits
 =====================
 
-The table below describes the psychical memory limits supported by each Windows version. We want to make sure our clients are aware of these limits as we begin to offer increased amounts of RAM across our server platforms.
+The table below describes the psychical memory limits supported by each Windows
+version. We want to make sure our clients are aware of these limits as we begin
+to offer increased amounts of RAM across our server platforms.
 ::
 
  Version                     32bit Limit        64bit Limit
@@ -15,7 +17,8 @@ The table below describes the psychical memory limits supported by each Windows 
  Windows 2016 Datacenter       n/a               24TB
 
 
-We recommend that servers using more than 4GB of RAM install a 64bit operating system over a 32bit operating system with PAE support.
+We recommend that servers using more than 4GB of RAM install a 64bit operating
+system over a 32bit operating system with PAE support.
 
 `microsoft_memory_limit <https://msdn.microsoft.com/en-us/library/aa366778(v=vs.85).aspx>`_
 

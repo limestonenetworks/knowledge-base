@@ -1,11 +1,15 @@
 VPN Install On Windows 8.1
 ==========================
 
-This howto will assist you with installing OpenVPN to access services on the Limestone Private Network
+This howto will assist you with installing OpenVPN to access services on the
+Limestone Private Network
 
-For example, services available on the private network include: The private interfaces on your servers, Shared NAS Drives, and IPMI devices for your servers.
+For example, services available on the private network include: The private
+interfaces on your servers, Shared NAS Drives, and IPMI devices for your
+servers.
 
-1. Download and launch the OpenVPN installer for your OS from OpenVPN’s website.
+1. Download and launch the OpenVPN installer for your OS from OpenVPN’s
+website.
 
 .. image:: /image/vpn001.png
 
@@ -21,17 +25,21 @@ For example, services available on the private network include: The private inte
 
 .. image:: /image/vpn005.png
 
- 
-
 ________________________________________________________________________________________
 
-4. At this point OpenVPN is installed and **you should REBOOT before continuing the installation process**. The reboot is necessary because we typically do not see the tunnel network interface registered until a reboot occurs.
+4. At this point OpenVPN is installed and **you should REBOOT before
+continuing the installation process**. The reboot is necessary because we
+typically do not see the tunnel network interface registered until a reboot
+occurs.
 
-5. Download the Limestone Private Network OpenVPN configuration files from your `OnePortal account’s VPN page <https://one.limestonenetworks.com/servers/vpn.html>`_.
+5. Download the Limestone Private Network OpenVPN configuration files from your
+`OnePortal account’s VPN page
+<https://one.limestonenetworks.com/servers/vpn.html>`_.
 
 .. image:: /image/vpn006.png
 
-6. Copy the VPN configuration files from your downloads folder to C:\Program Files\OpenVPN\config.
+6. Copy the VPN configuration files from your downloads folder to
+C:\Program Files\OpenVPN\config.
 
 .. image:: /image/vpn007.png
 
@@ -41,25 +49,33 @@ ________________________________________________________________________________
 
 .. image:: /image/vpn009.png
 
-8. Right click the OpenVPN GUI shortcut on your desktop and access the Properties menu.
+8. Right click the OpenVPN GUI shortcut on your desktop and access the
+Properties menu.
 
 .. image:: /image/vpn012.png
 
-9. Select the Compatibility tab, and check “Run this program as an administrator”. Then click OK.
+9. Select the Compatibility tab, and check “Run this program as an
+administrator”. Then click OK.
 
 .. image:: /image/vpn013.png
 
-10. Launch the OpenVPN GUI app from the desktop shortcut, then find the OpenVPN GUI icon in your taskbar. Right click it to display the installed Limestone profiles, and connect to one.
+10. Launch the OpenVPN GUI app from the desktop shortcut, then find the OpenVPN
+GUI icon in your taskbar. Right click it to display the installed Limestone
+profiles, and connect to one.
 
 .. image:: /image/vpn014.png
 
 
-We recommend using the UDP profile for the best performance. A TCP profile is also provided in case you are on a restrictive, firewalled network that will not permit the UDP profile. The TCP profile is more reliable in these cases however it will not be as fast as the UDP tunnel.
+We recommend using the UDP profile for the best performance. A TCP profile is
+also provided in case you are on a restrictive, firewalled network that will
+not permit the UDP profile. The TCP profile is more reliable in these cases
+however it will not be as fast as the UDP tunnel.
 
 11. Use your OnePortal credentials to log in to the VPN.
 
 .. image:: /image/vpn015.png
 
-12. You are now connected to the VPN and can access IPMI cards and other private network services.
+12. You are now connected to the VPN and can access IPMI cards and other
+private network services.
 
 .. image:: /image/vpn016.png
