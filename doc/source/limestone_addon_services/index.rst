@@ -9,7 +9,7 @@ Limestone_Addon_Services
    DDoS_Protection.rst
    DNS_rDNS.rst
    KVMoIP.rst
-   NAS.rst
+   nas.rst
    software.rst
-   SSL_Certificates.rst
+   ssl_certificates.rst
    VPN.rst
