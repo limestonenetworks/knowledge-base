@@ -10,3 +10,6 @@ Content Delivery Networks
    content_delivery_network/country_acl.rst
    content_delivery_network/spider_blocking.rst
    content_delivery_network/passwd_protection.rst
+   content_delivery_network/mp4_flv_streaming.rst
+   content_delivery_network/hotlink_protection.rst
+   content_delivery_network/setup_ssl_support.rst
