@@ -12,3 +12,4 @@ Cloud_Solutions
    cloud_solutions/cloud_key_pairs.rst
    cloud_solutions/new_virtual_instance.rst
    cloud_solutions/cant_access_new_instance.rst
+   cloud_solutions/create_volume.rst

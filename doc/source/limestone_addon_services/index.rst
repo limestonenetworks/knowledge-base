@@ -6,7 +6,7 @@ Limestone_Addon_Services
    :maxdepth: 2
    :caption: Contents:
 
-   DDoS_Protection.rst
+   ddos_protection.rst
    DNS_rDNS.rst
    KVMoIP.rst
    nas.rst
