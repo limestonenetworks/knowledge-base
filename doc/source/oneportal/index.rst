@@ -5,4 +5,5 @@ OnePortal
    :maxdepth: 2
    :caption: Contents:
 
-   API.rst
+   api_usage_and_methods.rst
+   whmcs_addon_for_one_portal.rst
