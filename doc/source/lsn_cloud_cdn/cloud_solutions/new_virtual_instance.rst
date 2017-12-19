@@ -5,11 +5,11 @@ Log into your cloud control panel and click the **“Instances”** tab.
 
 From here Press the “**Launch Instance**” Button
 
-.. image:: /image/LaunchInstance.png
+.. image:: /image/LaunchInstance.jpg
 
 **Details**
 
-.. image:: /image/Capture.png
+.. image:: /image/Capture.jpg
 
 - **Availability Zone** is the database location. Currently only our Dallas location is available.
 - **Instance Name** allows you to name your VM.
@@ -22,7 +22,7 @@ From here Press the “**Launch Instance**” Button
 
 **Access and Security**
 
-.. image:: /image/AccessandSecurity.png
+.. image:: /image/AccessandSecurity.jpg
 
 - **Key Pair** You will need to select a key pair upon VM creation for the server to be accessible. http://support.limestonenetworks.com/knowledge-base/cloud-key-pairs/
 - **Security Group** allows you to configure access to the VM and is necessary for VM use. Security groups can be added or changed at any time. http://support.limestonenetworks.com/knowledge-base/creating-security-groups-for-cloud-vms/
@@ -30,7 +30,7 @@ From here Press the “**Launch Instance**” Button
 
 **Networking**
 
-.. image:: /image/Networking-tab.png
+.. image:: /image/Networking-tab.jpg
 
 VMs can be configured with a public and private network.
 Public network allows the server to be accessed from the internet.
@@ -39,13 +39,13 @@ Private network allows the server to be connected to from another VM over the sa
 
 **Post Creation**
 
-.. image:: /image/Post.png
+.. image:: /image/Post.jpg
 
 From here you can add script or a set of commands to be run on the server after creation.
 
 **Advanced Options**
 
-.. image:: /image/advanced.png
+.. image:: /image/advanced.jpg
 
 **Disk Partition** From you can choose to either have the disk partitioned automatically or manually.
 

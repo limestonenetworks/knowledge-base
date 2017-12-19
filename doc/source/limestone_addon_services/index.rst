@@ -7,9 +7,9 @@ Limestone_Addon_Services
    :caption: Contents:
 
    ddos_protection.rst
-   DNS_rDNS.rst
-   KVMoIP.rst
+   dns_rdns.rst
+   kvmoip.rst
    nas.rst
    software.rst
    ssl_certificates.rst
-   VPN.rst
+   vpn.rst
