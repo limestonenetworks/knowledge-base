@@ -10,7 +10,7 @@ AutoInstall SSL (cPanel) Auto Update Guide
 To add or update the cronjob in the crontab, use the below command. It will open the crontab file in editor where the cronjob can be added/updated.
 ::
 
-  # crontab –e
+  crontab –e
 
 .. image:: /image/putty.png
 
@@ -39,4 +39,4 @@ paper_lantern.
   “This is the major version of the plugin, you need to update manually! For the current Plugin Version 3.1, CentOS 6.6, PHP 5.4 and WHM 11.48.”
 
 - **IonCube Loader error on WHM:**
-  “Site error: the file /usr/local/cpanel/base/frontend/x3/autoinstallssl/autoupdate.php requires the ionCube PHP Loader ioncube_loader_lin_5.4.so to be installed by the website operator. If you are the website operator please use the `ionCube Loader <http://www.ioncube.com/loaders.php>`_ Wizard to assist with installation."
+  “Site error: the file ``/usr/local/cpanel/base/frontend/x3/autoinstallssl/autoupdate.php`` requires the ionCube PHP Loader ioncube_loader_lin_5.4.so to be installed by the website operator. If you are the website operator please use the `ionCube Loader <http://www.ioncube.com/loaders.php>`_ Wizard to assist with installation."

@@ -5,8 +5,8 @@ Limestone Networks uses the AutoInstall SSL platform to provide our partners all
 
 Before getting started, you will need to make sure you have the AutoInstall SSL plugin loaded on your cPanel/WHM or Plesk installation. Details on how to download and install these plugins are located here:
 
-- How to install AutoInstall SSL for cPanel/WHM
-- How to install AutoInstall SSL for Plesk
+- `How to install AutoInstall SSL for cPanel/WHM <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/ssl/autoinstall_ssl_plugin.html>`_
+- `How to install AutoInstall SSL for Plesk <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/ssl/autoinstall_ssl_plugin_plesk.html>`_
 
 Our support team can install the plugin for a `per-incident management <https://www.limestonenetworks.com/support/management-per-incident.html>`_
 ticket fee.

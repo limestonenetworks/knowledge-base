@@ -1,7 +1,7 @@
 Install Softaculous on a WHM Dedicated Server
 =============================================
 
-This guide will show you how to install Softaculous on a WHM dedicated server.
+This guide will show you how to install Softaculous on a WHM `dedicated server <https://www.limestonenetworks.com/dedicated-servers/bare-metal.html>`_.
 
 **Before the Installation**
 
@@ -10,12 +10,12 @@ This guide will show you how to install Softaculous on a WHM dedicated server.
 
 - If you have a firewall, whitelist IPs to download and update Softaculous scripts
 
-  - api.softaculous.com (IP : 216.18.221.243)
-  - s1.softaculous.com (IP : 192.99.110.112)
-  - s2.softaculous.com (IP : 76.164.222.115)
-  - s3.softaculous.com (IP : 76.164.201.252)
-  - s4.softaculous.com (IP : 138.201.24.83)
-  - s7.softaculous.com (IP : 104.250.159.187
+  - `api.softaculous.com <http://www.softaculous.com/>`_ (IP : 216.18.221.243)
+  - `s1.softaculous.com <http://www.softaculous.com/>`_ (IP : 192.99.110.112)
+  - `s2.softaculous.com <http://www.softaculous.com/>`_ (IP : 76.164.222.115)
+  - `s3.softaculous.com <http://www.softaculous.com/>`_ (IP : 76.164.201.252)
+  - `s4.softaculous.com <http://www.softaculous.com/>`_ (IP : 138.201.24.83)
+  - `s7.softaculous.com <http://www.softaculous.com/>`_ (IP : 104.250.159.187
 
 **Installing Softaculous**
 

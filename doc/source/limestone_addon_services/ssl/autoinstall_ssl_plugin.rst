@@ -17,4 +17,4 @@ AutoInstall SSL Plugin Installation for cPanel
    Go to “Tweak Settings “ menu under “Server Configuration “
    Click on PHP tab.
    Check the ionCube option and click on save.
-5. Complete the AUTO-UPDATE setup to ensure functionality in future versions
+5. Complete the `AUTO-UPDATE <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/ssl/autoinstall_ssl_plugin.html>`_ setup to ensure functionality in future versions
