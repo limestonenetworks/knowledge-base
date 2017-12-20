@@ -54,7 +54,10 @@ Note: ``The softaculous_extra.php`` file adds Auto Installation capabilities for
 
 **Here is a list of popular scripts, which are comma-separated for your convenience:**
 
-``None, WordPress, b2evolution, StatusNet, Drupal, Mambo, phpBB, SMF, AEF, Coppermine, Gallery, Jcow, OpenClassifieds, openX, WebCalendar, Shadows Rising, phpList, SquirrelMail, LimeSurvey, Piwik, SugarCRM, PHProjekt, osCommerce, Magento, phpBook, HESK, osTicket, kPlaylist, VidiScript, Gregarius, CodeIgniter, Moodle, Elgg``
+``None, WordPress, b2evolution, StatusNet, Drupal, Mambo, phpBB, SMF, AEF,``
+``Coppermine, Gallery, Jcow, OpenClassifieds, openX, WebCalendar, Shadows Rising,``
+``phpList, SquirrelMail, LimeSurvey, Piwik, SugarCRM, PHProjekt, osCommerce,``
+``Magento, phpBook, HESK, osTicket, kPlaylist, VidiScript, Gregarius, CodeIgniter, Moodle, Elgg``
 
 **Setup when the Module Runs**
 
