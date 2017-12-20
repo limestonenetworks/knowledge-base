@@ -5,7 +5,7 @@ Setting up access to your NAS account is pretty simple. All of the information a
 
 Before you start, make sure that Samba is installed in Linux if you are using a Linux operating system.
 
-Then, visit OnePortal’s Shared NAS page and click the (?) icon next to the share you would like to mount. Further instructions are provided there.
+Then, visit `OnePortal’s Shared NAS <https://one.limestonenetworks.com/servers/sharednas.html>`_ page and click the (?) icon next to the share you would like to mount. Further instructions are provided there.
 
 
 **Only Accessible Internally**

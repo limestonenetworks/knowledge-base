@@ -12,14 +12,13 @@ https://rw.limestonenetworks.com/dns/
 Before editing domain DNS information under the control panel, you must change
 your domain registrar’s name-servers for your domain to:
 
-- ns1.limestonenetworks.com
-- ns2.limestonenetworks.com
-- ns3.limestonenetworks.com
+- `ns1.limestonenetworks.com`
+- `ns2.limestonenetworks.com`
 
 We also provide whitelisted DNS services using the following nameservers:
 
-- ns1.dallas-idc.com
-- ns2.dallas-idc.com
+- `ns1.dallas-idc.com`
+- `ns2.dallas-idc.com`
 
 After setting these as your nameservers under your domain registrar, please
 allow between 24 – 48 hours for the name-server records to fully propagate.

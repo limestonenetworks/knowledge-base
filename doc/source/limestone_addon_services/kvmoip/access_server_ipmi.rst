@@ -4,7 +4,7 @@ How do I access my server’s IPMI?
 All E3- and E5-based dedicated servers offered by Limestone Networks come with a built in IPMI. This device allows you console-level remote access and control of your server, as well as monitor system hardware and keep up with system alerts.
 
 
-Before attempting to access your IPMI, you will need to configure and log in to the Limestone Private Network via your VPN. You may find a tutorial on install, configuration, and access here. Please note that you will not be able to access your IPMI unless you are actively connected to the Limestone Private Network via IPMI – this is for your security and to prevent unauthorized IPMI access from the outside world.
+Before attempting to access your IPMI, you will need to configure and log in to the Limestone Private Network via your VPN. You may find a tutorial on install, configuration, and access `here <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/vpn/windows_openvpn_setup.html>`_. Please note that you will not be able to access your IPMI unless you are actively connected to the Limestone Private Network via IPMI – this is for your security and to prevent unauthorized IPMI access from the outside world.
 
 
 To access your IPMI, enter the One Portal control panel and navigate to the Services -> Service Packages page. From there, select the Tools dropdown for the server that you wish to utilize the IPMI of, and choose Launch KVMoIP.
@@ -24,4 +24,4 @@ Once you have logged into the IPMI, to take remote control of the server, choose
 Once you have downloaded and launched the .jnlp file, you are now connected to your server’s IPMI KVM over IP remote console. You have full mouse and keyboard access to the server, as if you were physically right next to it.
 
 Please be aware that due to the way that Supermicro deploys self-signed certificates for IPMIs, you may need to acknowledge an “unsafe” connection in your web browser and/or through Java. As this is being routed through our secure VPN and the Limestone Private Network, you can be confident that your connection and data is safe and secure.
-If you are unable to access your IPMI for any reason, or attempts to launch the .jnlp file return with “Connection Failed”, please open a support ticket with as much information as possible and we will be glad to assist you.
+If you are unable to access your IPMI for any reason, or attempts to launch the .jnlp file return with “Connection Failed”, please `open a support ticket <https://one.limestonenetworks.com/support/newticket.html>`_ with as much information as possible and we will be glad to assist you.

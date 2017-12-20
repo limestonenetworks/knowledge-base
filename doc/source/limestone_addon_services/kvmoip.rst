@@ -7,3 +7,4 @@ KVMoIP
 
    kvmoip/access_server_ipmi.rst
    kvmoip/ipmi_issues_java_8.rst
+   kvmoip/does_my_server_come_with_kvmoip.rst

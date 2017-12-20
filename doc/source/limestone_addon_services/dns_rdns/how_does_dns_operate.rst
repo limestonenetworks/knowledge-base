@@ -9,10 +9,10 @@ is converted into an IP address (in most cases). It all starts when you
 purchase a domain through a **registrar**, (Ex:
 `godaddy.com <https://www.godaddy.com/>`_).
 
-As for the remainer of this article, we’ll call your domain “MYDOMAIN.COM”.
+As for the remainer of this article, we’ll call your domain `“MYDOMAIN.COM”`.
 
 The primary role of a name-server is to handle requests, it accepts domain
-queries and returns a ‘record’. There are 2 most commonly used ‘records’, they
+queries and returns a `‘record’`. There are 2 most commonly used `‘records’`, they
 are:
 
 **- (A) Record** – This determines that IP Address of a domain, as an (Ex: When
@@ -23,9 +23,9 @@ address.)
 
 **- (MX) Record** – This determines which e-mail server handles e-mail for this
 domain. (Ex: You are sending an e-mail to support@limestonenetworks.com, the
-@limestonenetworks.com shows which domain the user **support** is at. The
+`@limestonenetworks.com` shows which domain the user **support** is at. The
 e-mail client will connect to your name-server and retrieve the ‘MX’ record,
-which is the Limestone Networks’ e-mail server.)
+which is the Limestone Networks e-mail server.)
 
 **Summary**
 
@@ -38,7 +38,8 @@ which is the Limestone Networks’ e-mail server.)
 
 **Using Limestone’s name-server(s)**
 
-Please visit “How do I use Limestone’s DNS service?”
+Please visit `How do I use Limestone’s DNS service <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/dns_rdns/lsn_dns.html>`_
+
 
 **Our Control Panel**
 
@@ -63,8 +64,8 @@ Keep in mind the trailing . is already present after the field.
 
 In order to setup your own name-servers, such as:
 
-- ns1.MYDOMAIN.com
-- ns2.MYDOMAIN.com, etc
+- `ns1.MYDOMAIN.com`
+- `ns2.MYDOMAIN.com`, etc
 
 You’ll need to do the following:
 
