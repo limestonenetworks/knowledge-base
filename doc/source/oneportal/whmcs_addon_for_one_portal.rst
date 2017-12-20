@@ -1,8 +1,7 @@
 WHMCS addon for OnePortal
 =========================
 
-**Install our OnePortal plugin
-to easily resell our services to your clients.**
+**Install our `OnePortal plugin <https://github.com/limestonenetworks/oneportal-whmcs>`_ to easily resell our services to your clients.**
 
 **Installation**
 
@@ -12,27 +11,27 @@ Dedicated servers: Move/Upload all of the files in the oneportal folder to modul
 
 For every hosting product/service while you set them up:
 
-1. Go to the “Module Settings” tab
-2. Select “Oneportal” as the “Module Name”
-3. Input your “API Key” from OnePortal’s “Administrative” -> “API”
+1. Go to the ``Module Settings`` tab
+2. Select ``Oneportal`` as the ``Module Name``
+3. Input your ``API Key`` from OnePortal’s ``Administrative -> API``
 4. Check any options you’d like
-5. Change the “rDNS Domain” to your domain name
-6. Leave the option as “Do not automatically setup this product”
+5. Change the ``rDNS Domain`` to your domain name
+6. Leave the option as ``Do not automatically setup this product``
 
-Then, go to the “Custom Fields” and add a field with the following:
+Then, go to the ``Custom Fields`` and add a field with the following:
 
 - Field Name: Server ID
 - Field Type: Text Box
 - (optionally) Description: Unique Server ID within the data center
-- (optionally) Click “Admin Only” if you don’t want to show this information to the client
+- (optionally) Click ``Admin Only`` if you don’t want to show this information to the client
 - (optionally) Click “Show on invoice” if you want the Server ID on your clients’ invoices
 
 Then, when you provision a new server for a client:
 
-1. Modify the product through the client’s “Products/Services” tab
-2. Locate the “Server ID” field and put in the server’s ID as either “D####” or “LSN-D####” where the # signs are the ID of your server in OnePortal
-3. Click “Save Changes”
-4. After the server is provisioned in the data center more information will be available in the “Bandwidth”, “Hardware” and “IP Addresses” sections of the product
+1. Modify the product through the client’s ``Products/Services`` tab
+2. Locate the ``Server ID`` field and put in the server’s ID as either ``D####`` or ``LSN-D####`` where the # signs are the ID of your server in OnePortal
+3. Click ``Save Changes``
+4. After the server is provisioned in the data center more information will be available in the ``Bandwidth``, ``Hardware`` and ``IP Addresses`` sections of the product
 
 **Bandwidth Statistics (optional, may not work due to WHMCS limitations)**
 
@@ -49,21 +48,21 @@ For every hosting product/service while you set them up:
 
 1. Create a new Oneportal user to be used with the API. USERNAME-api or something similar.
 2. Give your new user the privileges you desire. It will need most of them in order for this module to function properly. For a quick start just check all.
-3. Open WHMCS and go to the “Module Settings” tab
-4. Select “Oneportalcloud” as the “Module Name”
+3. Open WHMCS and go to the ``Module Settings`` tab
+4. Select ``Oneportalcloud`` as the “Module Name”
 5. Input your Oneportal api user and password. This user must have the correct privileges set from within Oneportal.
 6. Check any options you’d like
 7. The options for Ram/Storage/OS/Cores serve as the default for any cloud server you provision. This gives you the ability to either create multiple products with a set configuration or you can create configurable options for these fields. Scalability will not be possible without configurable options being setup.
-8. Change the “rDNS Domain” to your domain name
+8. Change the ``rDNS Domain`` to your domain name
 9. When the product is activated it will create the server and set the Server ID (explained below) for you.
 
-Then, go to the “Custom Fields” and add a field with the following:
+Then, go to the ``Custom Fields`` and add a field with the following:
 
 - Field Name: Server ID
 - Field Type: Text Box
 - (optionally) Description: Unique Server ID within the data center
-- (optionally) Click “Admin Only” if you don’t want to show this information to the client
-- (optionally) Click “Show on invoice” if you want the Server ID on your clients’ invoices
+- (optionally) Click ``Admin Only`` if you don’t want to show this information to the client
+- (optionally) Click ``Show on invoice`` if you want the Server ID on your clients’ invoices
  
 **Setting up configurable options**
 

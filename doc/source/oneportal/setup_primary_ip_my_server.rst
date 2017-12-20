@@ -1,5 +1,5 @@
-How do I set my Primary IP of my server?
-========================================
+How do I set Primary IP of my server?
+=====================================
 
 When you have multiple blocks, its hard for our Support Techs to determine which IP is your primary. Additionally it can become confusing for you everywhere we display your server’s IP address if it is not correctly set to your primary IP address.
 

@@ -24,4 +24,4 @@ Most of our dedicated servers come with a remote management interface. From OneP
 
 **Restart through OnePortal**
 
-As a last resort, you can restart your server through OnePortal by clicking on your server’s name and clicking the “Power” button.
+As a last resort, you can restart your server through OnePortal by clicking on your server’s name and clicking the ``Power`` button.

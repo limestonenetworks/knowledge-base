@@ -11,3 +11,4 @@ OnePortal
    restart_server_remotely.rst
    automatic_os_reload.rst
    purchase_additional_IP_addresses.rst
+   set_rdns_through_api.rst
