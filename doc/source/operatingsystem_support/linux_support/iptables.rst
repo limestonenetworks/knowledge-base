@@ -6,8 +6,7 @@ How do I use iptables?
 Modifying rules on your server can cause the server to become inaccessible on
 port 22 (SSH) or your alternate SSH port.
 
-Description / Basic Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Description / Basic Overview**
 
 Everyone in the IT industry is very concerned with security, especially if
 you’re a linux administrator. Many linux distributions come with several
@@ -122,20 +121,20 @@ commands down:
 
 **The first command:**
 
-- **-I** is to insert the rule into the top of the chain. You would use -A to
+- ``-I`` is to insert the rule into the top of the chain. You would use -A to
   insert it at the bottom of the chain. (Note: you can do “–D” instead to
   delete the rule from the chain as well.)
 
-- **INPUT** is the chain name. Input is the chain that is followed by
+- ``INPUT`` is the chain name. Input is the chain that is followed by
   “incoming” packets.
 
-- **-p** is the protocol argument, you specify the protocol type with this
+- ``-p`` is the protocol argument, you specify the protocol type with this
   command, notice the “tcp” after the “-p”
 
-- **–ddport** is what specifies which port to filter. In this case it is 25,
+- ``–ddport`` is what specifies which port to filter. In this case it is 25,
   because that is what port SMTP runs on (by default).
 
-- **-j** is the argument that specifies what to do with the packet. In this
+- ``-j`` is the argument that specifies what to do with the packet. In this
   case, it’s going to be “DROPPED”
 
 **The second command:**

@@ -10,8 +10,8 @@ How do I schedule FSCK to run automatically?
   as this one.
   - You can then, plan for a time at which a full system fsck is run.
 
-For more info on running fsck please click `<https://en.wikipedia.org/wiki/Fsck>`_.
-For more info on scheduling tasks under Linux click `<https://en.wikipedia.org/wiki/Cron>`_.
+For more info on running fsck please click `here <https://en.wikipedia.org/wiki/Fsck>`_
+For more info on scheduling tasks under Linux click `check <https://en.wikipedia.org/wiki/Cron>`_
 
 The following example syntax will add a weekly scheduled **scan-only** fsck and
 output the results to a log file for review.
@@ -30,8 +30,10 @@ enter the following text substituting *partition* with your root partition.
 When saving, do not change the existing file name.
 
 
-**PLEASE NOTE–** ``This does not eliminate the need for a fsck.``
-                 ``You will still need to schedule a manual fsck.``
+**PLEASE NOTE–** 
+
+``This does not eliminate the need for a fsck.``
+``You will still need to schedule a manual fsck.``
 
 **To Force a fsck using shutdown command**
 ::

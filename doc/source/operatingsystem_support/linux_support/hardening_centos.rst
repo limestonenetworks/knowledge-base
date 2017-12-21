@@ -1,8 +1,7 @@
 Hardening CentOS
 ================
 
-What will this script do?
-^^^^^^^^^^^^^^^^^^^^^^^^^
+**What will this script do?**
 
 - Install useful packages such as tcpdump, mtr, zsh, perl and logrotate
 - Setup automatic yum updates
@@ -27,7 +26,7 @@ What will this script do?
 
 - Install DDoS Deflate
    - More information about DDoS Deflate is available at
-       http://deflate.medialayer.com/
+       https://www.interserver.net/tips/kb/installing-configuring-linux-ddos-deflate/
 
 - Install CHKROOTKIT
    - Scheduled to check daily for issues and email your Admin Email
@@ -58,8 +57,8 @@ What will this script do?
 
     vim centos.sh
 
-``You may customize TCPPORTS and UDPPORTS, however the defaults in there now
-should cover most common processes.``
+``You may customize TCPPORTS and UDPPORTS, however`` 
+``the defaults in there now should cover most common processes.``
 
 
 **Run the Script**::

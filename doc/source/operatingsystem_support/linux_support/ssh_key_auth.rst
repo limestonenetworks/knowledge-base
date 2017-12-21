@@ -14,8 +14,7 @@ Here’s an example on setting it up between a CentOS Client and CentOS Server:
 
 On the client, do the following:
 
-- Goto the .ssh directory, which is located under /root – full path is
-  /root/.ssh
+- Goto the .ssh directory, which is located under /root – full path is ``/root/.ssh``
 - Now let’s create our private and public keys and put them into a file.
 
 ::
@@ -24,11 +23,11 @@ On the client, do the following:
 
 This created a 1024 bit key, and creates 2 files.
 
-1. id_rsa – This holds your client’s PRIVATE Key.
-2. id_rsa.pub – This holds your server’s PUBLIC key.
+1. id_rsa – This holds your client’s ``PRIVATE`` Key.
+2. id_rsa.pub – This holds your server’s ``PUBLIC`` key.
 
-Now, let’s place the key **id_rsa.pub** into the servers authorized_keys file.
-Located at: **/root/.ssh/authorized_keys**, If this file is not already there,
+Now, let’s place the key ``id_rsa.pub`` into the servers authorized_keys file.
+Located at: ``/root/.ssh/authorized_keys``, If this file is not already there,
 we will create it.
 
 
@@ -38,7 +37,7 @@ file copying program called rsync
 
  rsync -av -e ssh id_rsa.pub <SERVER_IP>:/root/.ssh/
 
-Make sure to change **SERVER_IP** to the servers IP address.
+Make sure to change ``SERVER_IP`` to the servers IP address.
 
 After doing this command, you will be prompted for the root password of the
 server, type it and press enter.

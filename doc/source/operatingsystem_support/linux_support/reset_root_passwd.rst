@@ -6,8 +6,8 @@ This article explains how to reset the root password if you no longer know it.
 You will require KVM access to your server in order to perform these steps.
 
 
-CentOS/Fedora
-^^^^^^^^^^^^^
+**CentOS/Fedora**
+
 - Through the KVM, initiate a restart of your server by sending the shutdown
   command
 
@@ -38,8 +38,7 @@ CentOS/Fedora
 You will not need to re-edit the grub loader it reverts to normal after the
 next reboot.
 
-Debian
-^^^^^^
+**Debian**
 
 Reboot and edit the Grub kernel line add a space then the following at the end
 of the line. (like ‘Alternate Method’ above)

@@ -5,8 +5,7 @@ You may now get your CentOS installs and updates locally on Limestone’s
 network. When routed correctly, it will not count against your monthly
 bandwidth.
 
-Yum Configuration
-^^^^^^^^^^^^^^^^^
+**Yum Configuration**
 
 Edit the config::
 
@@ -44,8 +43,7 @@ And put the following::
  gpgcheck=1
  gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-5
 
-Correctly Route the Traffic
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Correctly Route the Traffic**
 ::
 
  ip route add 10.0.0.0/8 via <strong>private-gateway-ip</strong> dev <strong>private-interface</strong>
