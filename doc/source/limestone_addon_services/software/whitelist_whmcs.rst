@@ -1,7 +1,7 @@
 How to whitelist an IP for WHMCS API.
 =====================================
 
-Any time you are connecting another application to WHMCS via their API, you have to add the IP address of the application WHMCS and allow access. Here’s how:
+You may find that you need to add an IP address to the WHMCS whitelist in order to connect certain applications. Here is a guide:
 
 1. Login to your WHMSC
 2. Go to Setup -> General Settings
