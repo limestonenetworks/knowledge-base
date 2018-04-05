@@ -1,5 +1,5 @@
-WHMCS addon for OnePortal
-=========================
+WHMCS Server Module for OnePortal
+=================================
 
 **Install our `OnePortal plugin
 <https://github.com/limestonenetworks/oneportal-whmcs>`_ to easily resell our
