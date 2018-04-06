@@ -1,7 +1,8 @@
 What is Spider Blocking?
 ========================
 
-Spider blocking is a feature of the LSN CDN that allows you to block Google from indexing your CDN content.
+Spider blocking is a feature of the LSN CDN that allows you to block Google
+from indexing your CDN content.
 
 **How to Enable Spider Blocking**
 
