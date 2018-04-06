@@ -1,4 +1,4 @@
-More about LSN CDN’s Performance
+More about LSN's CDN Performance
 ================================
 
 **Hardware/Network Performance**
@@ -11,9 +11,10 @@ LSN CDN is a globally distributed network of servers containing at least:
 - 1.5Gbps Uplink
 - 99.3% uptime per node (100% uptime combined)
 
-**Geographical Placement** 
+**Geographical Placement**
 
-LSN CDN has Points of Presence (PoP) in the following locations, spread out for optimal placement:
+LSN CDN has Points of Presence (PoP) in the following locations, spread out for
+optimal placement:
 
 - Seattle, WA (US)
 - Los Angeles, CA (US)

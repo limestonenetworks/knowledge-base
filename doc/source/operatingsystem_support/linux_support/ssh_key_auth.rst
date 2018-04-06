@@ -14,7 +14,8 @@ Here’s an example on setting it up between a CentOS Client and CentOS Server:
 
 On the client, do the following:
 
-- Goto the .ssh directory, which is located under /root – full path is ``/root/.ssh``
+- Goto the .ssh directory, which is located under /root – full path is
+  ``/root/.ssh``
 - Now let’s create our private and public keys and put them into a file.
 
 ::

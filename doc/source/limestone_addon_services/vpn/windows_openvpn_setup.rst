@@ -4,9 +4,16 @@ VPN Install On Windows 8.1
 This howto will assist you with installing OpenVPN to access services on the
 Limestone Private Network
 
-For example, services available on the private network include: The `private interfaces <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/vpn/limestone_private_tunnel.html>`_ on your servers, `Shared NAS Drives <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/nas/setup_nas_acc.html>`_, and `IPMI devices <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/kvmoip/access_server_ipmi.html>`_ for your servers.
+For example, services available on the private network include: The `private
+interfaces <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/vpn/limestone_private_tunnel.html>`_
+on your servers,
+`Shared NAS Drives <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/nas/setup_nas_acc.html>`_,
+and
+`IPMI devices <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/kvmoip/access_server_ipmi.html>`_
+for your servers.
 
-1. Download and launch the OpenVPN installer for your OS from `OpenVPN’s website <https://openvpn.net/index.php/open-source/downloads.html>`_.
+1. Download and launch the OpenVPN installer for your OS from `OpenVPN’s
+   website <https://openvpn.net/index.php/open-source/downloads.html>`_.
 
 .. image:: /image/vpn001.png
 

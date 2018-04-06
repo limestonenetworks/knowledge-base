@@ -12,8 +12,8 @@ purchase a domain through a **registrar**, (Ex:
 As for the remainer of this article, we’ll call your domain ``“MYDOMAIN.COM”``.
 
 The primary role of a name-server is to handle requests, it accepts domain
-queries and returns a ``‘record’``. There are 2 most commonly used ``‘records’``, they
-are:
+queries and returns a ``‘record’``. There are 2 most commonly used
+``‘records’``, they are:
 
 **- (A) Record** – This determines that IP Address of a domain, as an (Ex: When
 you enter a domain into your browser (Ex: Internet Explorer), your computer
@@ -38,7 +38,8 @@ which is the Limestone Networks e-mail server.)
 
 **Using Limestone’s name-server(s)**
 
-Please visit `How do I use Limestone’s DNS service <http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/dns_rdns/lsn_dns.html>`_
+Please visit `How do I use Limestone’s DNS service
+<http://limestonenetworks-knowledge-base.readthedocs.io/en/latest/limestone_addon_services/dns_rdns/lsn_dns.html>`_
 
 
 **Our Control Panel**

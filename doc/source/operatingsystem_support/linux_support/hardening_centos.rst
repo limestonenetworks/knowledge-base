@@ -26,7 +26,7 @@ Hardening CentOS
 
 - Install DDoS Deflate
    - More information about DDoS Deflate is available at
-       https://www.interserver.net/tips/kb/installing-configuring-linux-ddos-deflate/
+     https://www.interserver.net/tips/kb/installing-configuring-linux-ddos-deflate/
 
 - Install CHKROOTKIT
    - Scheduled to check daily for issues and email your Admin Email
@@ -57,7 +57,7 @@ Hardening CentOS
 
     vim centos.sh
 
-``You may customize TCPPORTS and UDPPORTS, however`` 
+``You may customize TCPPORTS and UDPPORTS, however``
 ``the defaults in there now should cover most common processes.``
 
 
