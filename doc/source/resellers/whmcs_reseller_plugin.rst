@@ -2,18 +2,19 @@ WHMCS Reseller Modules – Best Practices
 =======================================
 
 
-This article presents some best practices with regard to configuring WHMCS
-to work with the Limestone Networks API modules for remote server
-administration. Any information contained in this article is meant to serve as
-an auxiliary resource and is not a substitute for the installation instructions
-included in the `official Github repository
-<https://github.com/limestonenetworks/oneportal-whmcs>`.
+This article presents some best practices with regard to configuring WHMCS to
+work with the Limestone Networks API modules for remote server administration.
+Any information contained in this article is meant to serve as an auxiliary
+resource and is not a substitute for the installation instructions included in
+the `official Github repository
+<https://github.com/limestonenetworks/oneportal-whmcs>`_.
 
 **Dedicated Servers – Best Practices**
 
 When getting started with `dedicated servers
-<https://www.limestonenetworks.com/dedicated-servers/bare-metal.html>`, it is
-recommended to use the Opserverimport Addon module in conjunction with the
+<https://www.limestonenetworks.com/dedicated-servers/bare-metal.html>`_, it is
+recommended to use the `Opserverimport Addon Module
+<https://marketplace.whmcs.com/product/3931>`_ in conjunction with the
 OnePortal server module, as this combination provides the ability to create a
 complete replication of all products and configurable options available in a
 matter of seconds. For those who are looking to further customize a more unique
