@@ -1,4 +1,4 @@
-LSN_Cloud_CDN
+LSN Cloud CDN
 =============
 
 .. toctree::

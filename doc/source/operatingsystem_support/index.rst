@@ -1,4 +1,4 @@
-OperatingSystem_Support
+Operating System Support
 ========================
 
 .. toctree::

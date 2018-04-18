@@ -1,4 +1,4 @@
-Windows_Support
+Windows Support
 ===============
 
 .. toctree::
