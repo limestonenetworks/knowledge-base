@@ -8,13 +8,14 @@ machines is performed by manually by our Support Team at this time. If you are
 having trouble activating the OS please open a support ticket.
 ::
 
- Edition	Virtual Instances	Price (monthly)	Notes
- Web	               0	          $10.00	Web Edition does not provide virtualization support.
-                                                        Web Edition can be run as a virtual instance or a physical
-                                                        instance but not both.
- Standard	       1	          $35.00	Standard Edition allows up to 1 virtual instance
- Enterprise	       4	          $45.00	Enterprise Edition allows up to 4 virtual instance
- Datacenter	    Unlimited	          $75.00	Datacenter Edition allows unlimited virtual instances as you can physically run.
+ Edition      VPS     Price/month       Notes
+ Web             0       $10.00	   Web Edition does not provide virtualization support.
+                                   Web Edition can be run as a virtual instance
+                                   or a physical instance but not both.
+ Standard	 1	 $35.00	   Standard Edition allows up to 1 virtual instance
+ Enterprise	 4	 $45.00	   Enterprise Edition allows up to 4 virtual instance
+ Datacenter  Unlimited	 $75.00	   Datacenter Edition allows unlimited virtual instances
+                                   as you can physically run.
 
 Frequently Asked Questions (FAQ)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

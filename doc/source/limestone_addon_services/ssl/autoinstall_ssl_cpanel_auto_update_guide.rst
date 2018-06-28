@@ -20,7 +20,8 @@ open the crontab file in editor where the cronjob can be added/updated.
 ::
 
   MAILTO=youremail@yourdomain.com
-  * * * * * php -q /usr/local/cpanel/base/frontend/$theme/autoinstallssl/autoupdate.php
+  * * * * * php -q /usr/local/cpanel/base/frontend/$theme/
+                                                autoinstallssl/autoupdate.php
 
 **MAILTO:** the cron job email will be sent to this email address. Replace with
 your email.
