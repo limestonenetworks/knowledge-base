@@ -46,7 +46,7 @@ And put the following::
 **Correctly Route the Traffic**
 ::
 
- ip route add 10.0.0.0/8 via <strong>private-gateway-ip</strong> dev <strong>private-interface</strong>
+ ip route add 10.0.0.0/8 via <private-gateway-ip> dev <private-interface>
 
 
 If you want this to save after reboot, add to

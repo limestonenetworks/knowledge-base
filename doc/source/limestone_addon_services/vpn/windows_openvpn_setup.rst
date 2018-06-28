@@ -29,7 +29,7 @@ for your servers.
 
 .. image:: /image/vpn005.png
 
-________________________________________________________________________________________
+________________________________________________________________________________
 
 4. At this point OpenVPN is installed and **you should REBOOT before
 continuing the installation process**. The reboot is necessary because we

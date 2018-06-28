@@ -47,8 +47,8 @@ is below.
 
  To: dul@mail-abuse.org
  Subject: DUL Removal for 192.168.0.1
- Body: The RDNS for 192.168.0.1 has been changed to reference that it is a static IP address. I would like to request removal of this IP
- from the DUL.
+ Body: The RDNS for 192.168.0.1 has been changed to reference that it is a static IP address.
+ I would like to request removal of this IP from the DUL.
 
 If you have any questions or issues regarding these steps please open a `support ticket
 <https://one.limestonenetworks.com/support/newticket.html>`_.
