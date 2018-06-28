@@ -1,4 +1,4 @@
-SSL_Certificates
+SSL Certificates
 ================
 
 .. toctree::

@@ -1,4 +1,4 @@
-TOS_AUP
+TOS AUP
 =======
 
 .. toctree::

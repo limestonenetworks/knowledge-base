@@ -1,4 +1,4 @@
-DNS_rDNS
+DNS rDNS
 ========
 
 .. toctree::
