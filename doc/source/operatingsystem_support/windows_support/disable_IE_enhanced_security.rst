@@ -62,3 +62,5 @@ Configuration Setting. (The default is On)
 You have two settings that can be disabled, one only affects the Administrators
 and the other all users. Make your selection to Off for Administrators, Users
 or both.
+
+.. disqus::

@@ -9,13 +9,16 @@ having trouble activating the OS please open a support ticket.
 ::
 
  Edition      VPS     Price/month       Notes
- Web             0       $10.00	   Web Edition does not provide virtualization support.
+ Web             0       $10.00	   Web Edition does not provide
+                                   virtualization support.
                                    Web Edition can be run as a virtual instance
                                    or a physical instance but not both.
- Standard	 1	 $35.00	   Standard Edition allows up to 1 virtual instance
- Enterprise	 4	 $45.00	   Enterprise Edition allows up to 4 virtual instance
- Datacenter  Unlimited	 $75.00	   Datacenter Edition allows unlimited virtual instances
-                                   as you can physically run.
+ Standard	 1	 $35.00	   Standard Edition allows up to 1
+                                   virtual instance
+ Enterprise	 4	 $45.00	   Enterprise Edition allows up to 4
+                                   virtual instance
+ Datacenter  Unlimited	 $75.00	   Datacenter Edition allows unlimited virtual
+                                   instances as you can physically run.
 
 Frequently Asked Questions (FAQ)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -37,3 +40,5 @@ Q. Can I run Windows Server 2008 Standard in place of Windows Server 2008
 A. Yes. The use terms specify that the right to run Windows Server 2008
    Standard in place of Windows Server 2008 Enterprise is allowed within any
    operating system environment.
+
+.. disqus::

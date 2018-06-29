@@ -131,10 +131,12 @@ included with PHP5 but not PHP4.
         ."<li>Server ID = {$serverItem->attributes()->id}"
         ."<li>Server Name = {$serverItem->displayname}"
         ."<li>Server Public IP = {$serverItem->publicip}"
-        ."<li>Server Bandwidth Used = {$serverItem->bandwidth->actual->friendly}"
+        ."<li>Server Bandwidth Used =
+           {$serverItem->bandwidth->actual->friendly}"
         ."</ul>"
      }
  }
 
  unset($apiKey);
 
+.. disqus::

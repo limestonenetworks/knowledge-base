@@ -18,7 +18,7 @@ and going.
  2003-06-27 14:06:18 cwd=/home/usersite/public_html/forums 3 args:
                      /usr/sbin/sendmail -t -i
  2003-06-27 14:06:18 19W0QE-0001Nr-1b nobody@yourserversname.com from env-from
-                     rewritten as ""usersite.com" <minx@usersite.com>" by rule 1
+                     rewritten as ""usersite.com" <minx@usersite.com>" by rule1
 
 The message above tells me where the message came from, who sent it from my
 server, the user and the path it was called from. It also tells me how it was
@@ -31,9 +31,11 @@ debugging your message logs and catching spammers!
 
 ::
 
- EG: 19W0bO-0001cY-Ej <= jessica@stripdownnews.com H=(one) [128.121.247.84]:52087
+ EG: 19W0bO-0001cY-Ej <= jessica@stripdownnews.com H=(one)
+                      [128.121.247.84]:52087
                       I=[64.246.38.122]:25 P=smtp S=2387
-                      T="Naked Newsreaders? OH YEAH!" from jessica@stripdownnews.com
+                      T="Naked Newsreaders? OH YEAH!"
+                      from jessica@stripdownnews.com
 
 **cPanel Servers**
 
@@ -70,11 +72,13 @@ If your server is running cPanel, the instructions are very simple.
     3. After ``hostlist auth_relay_hosts = *`` add the following:
        ::
 
-        log_selector = +address_rewrite +all_parents +arguments +connection_reject
-                       +delay_delivery +delivery_size +dnslist_defer +incoming_interface
-                       +incoming_port +lost_incoming_connection +queue_run +received_sender
-                       +received_recipients +retry_defer +sender_on_delivery +size_reject
-                       +skip_delivery +smtp_confirmation +smtp_connection +smtp_protocol_error
+        log_selector = +address_rewrite +all_parents +arguments
+                       +connection_reject +delay_delivery +delivery_size
+                       +dnslist_defer +incoming_interface +incoming_port
+                       +lost_incoming_connection +queue_run +received_sender
+                       +received_recipients +retry_defer +sender_on_delivery
+                       +size_reject +skip_delivery +smtp_confirmation
+                       +smtp_connection +smtp_protocol_error
                        +smtp_syntax_error +subject +tls_cipher +tls_peerdn
 
     4. The final result should look like this:
@@ -82,12 +86,14 @@ If your server is running cPanel, the instructions are very simple.
 
         hostlist auth_relay_hosts = *
 
-        log_selector = +address_rewrite +all_parents +arguments +connection_reject +delay_delivery
-                       +delivery_size +dnslist_defer +incoming_interface +incoming_port
-                       +lost_incoming_connection +queue_run +received_sender +received_recipients
-                       +retry_defer +sender_on_delivery +size_reject +skip_delivery +smtp_confirmation
-                       +smtp_connection +smtp_protocol_error +smtp_syntax_error +subject
-                       +tls_cipher +tls_peerdn
+        log_selector = +address_rewrite +all_parents +arguments
+                       +connection_reject +delay_delivery
+                       +delivery_size +dnslist_defer +incoming_interface
+                       +incoming_port +lost_incoming_connection +queue_run
+                       +received_sender +received_recipients +retry_defer
+                       +sender_on_delivery +size_reject +skip_delivery
+                       +smtp_confirmation +smtp_connection +smtp_protocol_error
+                       +smtp_syntax_error +subject +tls_cipher +tls_peerdn
 
         #######################################
         # Runtime configuration file for Exim #
@@ -100,3 +106,5 @@ If your server is running cPanel, the instructions are very simple.
          /etc/init.d/exim restart
 
 Then you’re done!
+
+.. disqus::

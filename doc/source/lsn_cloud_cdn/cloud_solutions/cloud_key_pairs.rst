@@ -18,3 +18,5 @@ elsewhere.
 - Public key Paste your previously generated public key here.
 
 Once a keypair has been added you may use it when creating a new VM.
+
+.. disqus::

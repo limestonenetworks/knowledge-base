@@ -13,3 +13,5 @@ You may now define your primary IP address by doing the following:
 3. Click Edit Name/IP next to the server you’d like to change the Primary IP on
 4. Choose your new Primary IP at the bottom of the page
 5. Press the Update Primary IP button at the bottom
+
+.. disqus::

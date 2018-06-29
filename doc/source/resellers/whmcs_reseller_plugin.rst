@@ -74,3 +74,5 @@ of support to their clients. However, you may pass support requests to us on
 behalf of your clients. Please contact the sales department with any questions
 you have regarding the Reseller Program, the tools available, or to receive a
 server quote for your custom requirements.
+
+.. disqus::

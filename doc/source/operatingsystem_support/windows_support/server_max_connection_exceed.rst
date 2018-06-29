@@ -34,3 +34,5 @@ For more information on the mstsc command click `here <https://www.microsoft.com
 
 Free bonus: Need to Ctl + Alt + Del in a RDP window? Don’t work? Try Ctl + Alt
 + End instead.
+
+.. disqus::
