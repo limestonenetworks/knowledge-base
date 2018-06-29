@@ -29,7 +29,7 @@ For CentOS-based servers provisioned recently, we automatically add the correct
 routes to a file called /etc/sysconfig/network-scripts/route-ethX (where ethX
 is the private interface). If you have CentOS and the routes are not working
 correctly, please open a
-`support ticket <https://rw.limestonenetworks.com/support/newticket.html>`_.
+`support ticket <https://one.limestonenetworks.com/support/newticket.html>`_.
 
 Also keep in mind, if your route table is filled with extraneous routes,
 especially if any of them have anything to do with your private interface or
