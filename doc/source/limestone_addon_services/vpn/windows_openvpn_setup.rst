@@ -29,7 +29,7 @@ for your servers.
 
 .. image:: /image/vpn005.png
 
-________________________________________________________________________________
+_________________________________________________________________________
 
 4. At this point OpenVPN is installed and **you should REBOOT before
 continuing the installation process**. The reboot is necessary because we
@@ -83,3 +83,5 @@ however it will not be as fast as the UDP tunnel.
 private network services.
 
 .. image:: /image/vpn016.png
+
+.. disqus::

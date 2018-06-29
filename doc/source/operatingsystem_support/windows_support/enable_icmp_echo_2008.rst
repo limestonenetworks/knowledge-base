@@ -12,3 +12,5 @@ through the windows Firewall
 6. Right-click on this and choose ‘Enable Rule’
 
 Congrats, you can now ping the 2008 server.
+
+.. disqus::

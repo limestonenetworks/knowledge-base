@@ -30,7 +30,8 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_rtd_theme']
+# extensions = ['sphinx_rtd_theme','sphinxcontrib.disqus']
+extensions = ['sphinxcontrib.disqus']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ytemplates']
@@ -48,6 +49,7 @@ master_doc = 'index'
 project = u'LimestoneNetworks Knowledge Base'
 copyright = u'2017, Ajinkya Wadekar'
 author = u'Ajinkya Wadekar'
+disqus_shortname = 'limestonenetworks-knowledge-base-readthedocs-io'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

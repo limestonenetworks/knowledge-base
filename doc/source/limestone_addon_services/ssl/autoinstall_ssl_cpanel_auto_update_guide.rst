@@ -55,3 +55,5 @@ address as listed below):**
   the website operator. If you are the website operator please use the
   `ionCube Loader <http://www.ioncube.com/loaders.php>`_ Wizard to assist with
   installation."
+
+.. disqus::

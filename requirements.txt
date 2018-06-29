@@ -1,7 +1,9 @@
-# Keep hacking first, it pulls in the right versions of flake8, mccabe and pyflakes
+# Keep hacking first, it pulls in the right versions of flake8,
+# mccabe and pyflakes
 virtualenv # MIT
 
-sphinx # BSD
+Sphinx # BSD
 doc8 # Apache-2.0
 sphinxmark # Apache-2.0
 sphinx_rtd_theme
+-e git+https://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus

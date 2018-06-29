@@ -52,3 +52,5 @@ Then run this command to remount the root partition in read/write mode.
   mount -o remount,rw /
 
 and reset the root password as normal with the **passwd** command.
+
+.. disqus::

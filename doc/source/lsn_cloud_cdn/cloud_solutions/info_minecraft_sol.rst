@@ -13,3 +13,5 @@ You can manage your server at http://{your_ip_address}:8080 with the username **
 
 
 **Password**: We recommend that you change this password immediately.
+
+.. disqus::
