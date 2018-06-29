@@ -10,7 +10,7 @@ and DirectAdmin servers currently.
 **Install the Hook in WHMCS**
 
 1. Download the Softaculous Auto Installation Hook. It is available from
-   `WHMCS Community Addons <https://marketplace.whmcs.com/>`_
+   `WHMCS Community Addons <https://www.softaculous.com/docs/File:Autoinstall.zip>`_
 2. Extract the file ``softaculous.php`` and upload it to
    ``/full_path_to/whmcs/includes/hooks/``
 3. Optionally, upload the file ``softaculous_debug.php`` to
