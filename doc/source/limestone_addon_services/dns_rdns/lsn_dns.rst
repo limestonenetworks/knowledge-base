@@ -4,7 +4,7 @@ How do I use Limestone’s DNS service?
 We provide 3 managed redundant name-servers for your convenience, If you don’t
 want the trouble of creating your own nameservers (eg: ns1.MYDOMAIN.com), you
 can use the DNS Panel located under the Control Panel
-https://rw.limestonenetworks.com/dns/
+https://one.limestonenetworks.com/dns/
 
 
 **Nameservers**
