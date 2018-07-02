@@ -69,3 +69,5 @@ right-click and choose **assign**
 
 More information can be found in this downloadable guide from Microsoft:
 `here <https://www.microsoft.com/en-us/download/details.aspx?id=11698>`_
+
+.. disqus::

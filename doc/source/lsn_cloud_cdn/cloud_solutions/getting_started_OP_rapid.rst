@@ -146,3 +146,5 @@ Confirm the volume has been attached to the instance:
 To **detach** the volume, navigate back to the **Manage Attachments** page and
 detach the volume. It will then be made available for deletion or attachment to
 another instance.
+
+.. disqus::

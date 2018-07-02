@@ -20,3 +20,5 @@ Inventory Configuration Tab.
 
 **If you do not obtain a license key your VMWare ESXi evaluation period will
 expire and your installation may cease to function.**
+
+.. disqus::

@@ -60,3 +60,5 @@ required steps for WHMCS 6.2 or earlier)**
 Now the product welcome email will appear similar to:
 
 .. image:: /image/whmcs_email_template.png
+
+.. disqus::

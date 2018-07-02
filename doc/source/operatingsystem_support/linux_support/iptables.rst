@@ -156,3 +156,5 @@ Ok, let’s save our current work.
  DROP      	 tcp  --  0.0.0.0/0                0.0.0.0/0           tcp dpt:25
 
 Notice: how the “ACCEPT” rule is above the “DROP” rule.
+
+.. disqus::

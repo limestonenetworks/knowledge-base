@@ -13,3 +13,5 @@ We offer Parallels Plesk Panel in four different editions.
 Learn more about your options on our
 `Plesk Panel 12 Hosting <https://www.limestonenetworks.com/upgrades/parallels-plesk-panel.html>`_
 page.
+
+.. disqus::

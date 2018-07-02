@@ -81,3 +81,5 @@ After it completes, you will get a message like::
     You must now reconnect to this server using the information above
     Changing the SSH port has caused this connection to freeze.
     BEFORE CLOSING THIS WINDOW please note your information above.
+
+.. disqus::

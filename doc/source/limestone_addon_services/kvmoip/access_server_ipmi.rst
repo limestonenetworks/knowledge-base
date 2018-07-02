@@ -55,3 +55,5 @@ If you are unable to access your IPMI for any reason, or attempts to launch
 the .jnlp file return with “Connection Failed”, please `open a support ticket
 <https://one.limestonenetworks.com/support/newticket.html>`_ with as much
 information as possible and we will be glad to assist you.
+
+.. disqus::

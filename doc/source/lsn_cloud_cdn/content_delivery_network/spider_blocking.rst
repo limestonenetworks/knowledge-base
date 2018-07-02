@@ -10,3 +10,5 @@ from indexing your CDN content.
 2. Click “Other Options”.
 3. Under “Block Bots” select “On”.
 4. Click “Save Changes”.
+
+.. disqus::

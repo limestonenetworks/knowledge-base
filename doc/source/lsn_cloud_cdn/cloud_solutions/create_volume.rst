@@ -28,3 +28,5 @@ of the control panel.
 Press **“Create Volume”** to create the volume
 Once created you can attach the volume to a VM using the drop down box under
 **“Actions”** With the **“Manage Attachments”** button.
+
+.. disqus::

@@ -29,3 +29,5 @@ optimal placement:
 - Singapore (SG)
 - Ankara (TR)
 - Sydney (AU)
+
+.. disqus::

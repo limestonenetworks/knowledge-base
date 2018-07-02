@@ -14,3 +14,5 @@ order to connect certain applications. Here is a guide:
     Dashboard, you would add the IP address 64.31.0.178.
 
 6. Press Save Changes when finished.
+
+.. disqus::

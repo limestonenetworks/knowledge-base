@@ -14,3 +14,5 @@ control validation. We keep our costs down and pass the savings on to you.
 - Free support by web and email
 - $10,000 warranty
 - 7-day money back guarantee!
+
+.. disqus::

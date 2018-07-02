@@ -46,3 +46,5 @@ you can disable it by doing the following.
 4. Click the red “[X]” next to each domain. If you do not, those domains will
    be blocked.
 5. When finished, press “Save Changes”
+
+.. disqus::
