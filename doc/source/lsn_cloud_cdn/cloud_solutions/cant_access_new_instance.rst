@@ -14,3 +14,5 @@ there are a few quick things you can check.
 
 If you’re still having issues connecting please create a Support ticket and
 we’ll be more than happy to assist.
+
+.. disqus::

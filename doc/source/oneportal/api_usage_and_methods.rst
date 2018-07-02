@@ -138,3 +138,4 @@ included with PHP5 but not PHP4.
 
  unset($apiKey);
 
+.. disqus::

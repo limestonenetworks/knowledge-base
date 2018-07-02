@@ -37,3 +37,5 @@ Once the plugin is installed:
 
 If you would like to install the certificate manually, please contact our sales
 department.
+
+.. disqus::

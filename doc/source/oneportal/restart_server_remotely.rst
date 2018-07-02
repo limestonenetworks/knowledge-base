@@ -30,3 +30,5 @@ can then login using your OnePortal login.
 
 As a last resort, you can restart your server through OnePortal by clicking on
 your server’s name and clicking the ``Power`` button.
+
+.. disqus::

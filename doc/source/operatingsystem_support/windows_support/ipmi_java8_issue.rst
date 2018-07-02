@@ -30,3 +30,5 @@ check marked and “Installed Applications and Applets” is unchecked.
 - Press **OK** again on the General tab to exit
 - Open the Remote Control session,  and you should then be able to use the
   IPMI.
+
+.. disqus::

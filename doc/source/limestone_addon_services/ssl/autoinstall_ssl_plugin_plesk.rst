@@ -12,3 +12,5 @@ AutoInstall SSL Plugin Installation for Plesk
    link under Links to Additional Services.
 8. Click AutoInstallSSL — Now you will see the plugin page, and installation
    is complete!
+
+.. disqus::

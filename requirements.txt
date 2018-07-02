@@ -5,3 +5,4 @@ sphinx # BSD
 doc8 # Apache-2.0
 sphinxmark # Apache-2.0
 sphinx_rtd_theme
+git+https://github.com/rmk135/sphinxcontrib-disqus.git@e69562436b0ea77f35b52404f41c377b24505a01#egg=sphinxcontrib-disqus

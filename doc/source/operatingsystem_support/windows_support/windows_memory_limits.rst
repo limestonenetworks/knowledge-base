@@ -24,3 +24,4 @@ system over a 32bit operating system with PAE support.
 
 `microsoft_PAE <https://msdn.microsoft.com/en-us/library/aa366796(v=vs.85).aspx>`_
 
+.. disqus::

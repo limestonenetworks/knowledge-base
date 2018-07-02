@@ -37,3 +37,5 @@ Q. Can I run Windows Server 2008 Standard in place of Windows Server 2008
 A. Yes. The use terms specify that the right to run Windows Server 2008
    Standard in place of Windows Server 2008 Enterprise is allowed within any
    operating system environment.
+
+.. disqus::

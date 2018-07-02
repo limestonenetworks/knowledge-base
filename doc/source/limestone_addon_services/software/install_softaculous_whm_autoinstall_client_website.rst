@@ -102,3 +102,5 @@ followed by the error given
 
 When you are finished testing the module, remove the ``softaculous_debug.php``
 file from your WHMCS installation
+
+.. disqus::

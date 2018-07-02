@@ -70,3 +70,5 @@ automatically or manually.
 
 Once you’ve configured the VM to your preference press the “Launch button” and
 the VM will be created.
+
+.. disqus::

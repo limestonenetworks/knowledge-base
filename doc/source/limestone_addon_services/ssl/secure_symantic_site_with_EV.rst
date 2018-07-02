@@ -79,3 +79,5 @@ Go to the Installation Agreement to accept the terms and conditions.
 Starting at only $799.00 per year, Symantec Secure Site with EV is the most
 effective SSL certificate available today. SSL certificates can be purchased
 for a term of up to 3 years for further discount.
+
+.. disqus::

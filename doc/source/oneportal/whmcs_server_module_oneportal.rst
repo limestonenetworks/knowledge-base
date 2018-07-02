@@ -127,3 +127,4 @@ Option parameters
   another operating system is chosen then it will not be preinstalled but a
   license will still be issued.
 
+.. disqus::

@@ -25,3 +25,5 @@ installed.
 
 **NOTE: If Auto OS Reload is unavailable then the column will read “Contact
 Support” and provide you with a link to instantly open a ticket.**
+
+.. disqus::

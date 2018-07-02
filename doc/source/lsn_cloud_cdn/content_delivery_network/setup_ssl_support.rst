@@ -15,3 +15,5 @@ highly recommend that you use this SSL-supported setup site-wide.
    your web addresses to.
 5. Make sure your hosting has a domain alias setup for the hostname provided in
    the pervious step.
+
+.. disqus::
