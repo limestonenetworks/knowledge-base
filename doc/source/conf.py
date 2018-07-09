@@ -16,9 +16,10 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('exts'))
 
 
 # -- General configuration ------------------------------------------------
@@ -33,10 +34,11 @@
 extensions = [
     'sphinx_rtd_theme',
     'sphinxcontrib.disqus',
+    'redirect',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['ytemplates']
+# templates_path = ['ytemplates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -168,3 +170,7 @@ texinfo_documents = [
 ]
 
 disqus_shortname = 'lsnknowledgebase'
+
+redirects = [
+    ('knowledge-base/how-can-i-tell-if-im-being-attacked-2', 'abuse/how_to_confirm_if_attacked',),
+]
