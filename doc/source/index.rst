@@ -23,6 +23,7 @@ Guide
    lsn_cloud_cdn/index
    resellers/index
    tos_aup/index
+   frequently_asked_questions/index
 
 
 Indices and tables
