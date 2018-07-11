@@ -12,3 +12,4 @@ OnePortal
    automatic_os_reload.rst
    purchase_additional_IP_addresses.rst
    set_rdns_through_api.rst
+   how_long_will_it_take_to_reload_set_up_my_new_server.rst

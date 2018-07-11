@@ -13,3 +13,4 @@ Limestone Addon Services
    software.rst
    ssl_certificates.rst
    vpn.rst
+   general.rst

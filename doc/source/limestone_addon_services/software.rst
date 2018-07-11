@@ -11,3 +11,5 @@ Software
    software/parallel_plesk_price.rst
    software/vmware_exsi.rst
    software/whitelist_whmcs.rst
+   software/how_much_is_cpanel_for_cloud_servers.rst
+   software/instant_cpanel_vps_licenses.rst
