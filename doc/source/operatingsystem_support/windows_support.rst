@@ -13,4 +13,5 @@ Windows Support
    windows_support/windows_memory_limits.rst
    windows_support/windows_vps_licensing.rst
    windows_support/windows_firewall.rst
-
+   windows_support/block_specific_IP_windows_server.rst
+   windows_support/drives_not_appearing_in_windows_2008.rst

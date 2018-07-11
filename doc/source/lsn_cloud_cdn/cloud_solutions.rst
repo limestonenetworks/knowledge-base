@@ -23,3 +23,6 @@ Cloud Solutions
    cloud_solutions/do_you_offer_management_for_my_cloud_server.rst
    cloud_solutions/do_i_have_full_control_over_the_software_on_the_cloud_server.rst
    cloud_solutions/can_i_swip_my_ip_addresses_for_cloud_servers.rst
+   cloud_solutions/cloud_uptime.rst
+   cloud_solutions/configure_new_instances_drive_and_storage_type.rst
+   cloud_solutions/connecting_to_windows_cloud_instance.rst

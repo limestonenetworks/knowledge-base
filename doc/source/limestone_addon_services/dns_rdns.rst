@@ -9,3 +9,4 @@ DNS rDNS
    dns_rdns/lsn_dns.rst
    dns_rdns/reverse_dns.rst
    dns_rdns/how_setup_rdns.rst
+   dns_rdns/ipv6_rdns.rst
