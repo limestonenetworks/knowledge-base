@@ -12,3 +12,4 @@ Linux Support
    linux_support/schedule_fsck_run_auto.rst
    linux_support/ssh_key_auth.rst
    linux_support/iptables.rst
+   linux_support/interface_command.rst
