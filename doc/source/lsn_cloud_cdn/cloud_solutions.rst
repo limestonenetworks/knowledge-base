@@ -26,3 +26,4 @@ Cloud Solutions
    cloud_solutions/cloud_uptime.rst
    cloud_solutions/configure_new_instances_drive_and_storage_type.rst
    cloud_solutions/connecting_to_windows_cloud_instance.rst
+   cloud_solutions/cloud_server_firewall.rst
