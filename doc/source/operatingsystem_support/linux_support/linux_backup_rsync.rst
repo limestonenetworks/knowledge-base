@@ -130,7 +130,7 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
     /dev/sda1: UUID="05221ad7-e319-4339-bb54-36b40f3b1b04" TYPE="xfs"
 
-2. Open /etc/fstab with a text editor and # out the old UUID then add your new UUID.
+2. Open /etc/fstab with a text editor and comment out (#) out the old UUID then add your new UUID.
 
  Ex::
 
@@ -192,7 +192,7 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
     ifdown-ipv6      ifup             ifup-post   network-functions
     ifdown-isdn      ifup-aliases     ifup-ppp    network-functions-ipv6
 
- You will want to enter the config file and remove or change the MAC address accordingly or remove it. Below I have hashed it out. You will also want to change the DEVICE name accordingly as well.
+ You'll want to open the config file in a text editor (i.e. vi, vim, nano), change the MAC address to the new one or remove it completely. Below I have commented(#) it out as this disables it. You will also want to change the DEVICE name accordingly.
 
  ::
 
