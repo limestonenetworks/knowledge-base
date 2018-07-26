@@ -273,3 +273,6 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
  https://www.tecmint.com/18-tar-command-examples-in-linux/
 
  https://www.cubebackup.com/blog/automatic-backup-linux-using-rsync-crontab/
+
+
+.. disqus::
