@@ -10,9 +10,9 @@ rsync as our example.
 
 Please note that the majority of the information in this article was gathered from
 `SpiceWorks <https://community.spiceworks.com/how_to/114945-centos-7-backup-and-restore>`_.
-I have condensed or removed parts that were either to long, unnecessary, or irrelevant to just doing a backup. I have also put
-additional examples and a few links to help with understanding
-how some of the options work.
+I have condensed or removed parts that were either to long, unnecessary, or
+irrelevant to just doing a backup. I have also put additional examples and a
+few links to help with understanding how some of the options work.
 
  **Install rysnc**
 
