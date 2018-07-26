@@ -6,11 +6,11 @@ There are various different methods to creating backups on Linux and also may be
 preferences. Some of these include Tar, DD, Gnome Disk Utility, Acrois True Image, Norton Ghost for Linux, and CloneZilla to name a few.
 However in this article, we will be using rsync as our example.
 
-Please note that the majority of the information in this article was gathered from 
+Please note that the majority of the information in this article was gathered from
 `SpiceWorks <https://community.spiceworks.com/how_to/114945-centos-7-backup-and-restore>`_.
 I have condensed or removed parts that were either to long, unnecessary, or irrelevant to just doing a backup. I have also put
 additional examples and a few links to help with understanding
-how some of the options work. 
+how some of the options work.
 
  **Install rysnc**
 
@@ -48,7 +48,7 @@ how some of the options work.
  If you want to run backups automatically, the best way to do that would be to set this up through Cron job.
 
 - Please note that if you want this to run automatically to a separate machine, you will need to configure SSH key pair so that a
-password is not needed to be entered. 
+password is not needed to be entered.
 
 **Compress and move the files to another server**
 
@@ -57,14 +57,14 @@ password is not needed to be entered.
 
  ::
 
-    cd /home/user/backup 
+    cd /home/user/backup
     tar zcvf /home/user/server-backup.tar ./
 
 **Copy the .tar to another Linux machine using scp**
 
  ::
 
-    scp /home/user/server-backup.tar 
+    scp /home/user/server-backup.tar
     user@ipaddress:/locationofdestination/server-backup.tar
 
  Alternatively you can also use an application such as `WinSCP <https://winscp.net/eng/download.php>`_ to download the file to your
@@ -91,7 +91,7 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
  ::
 
     mkdir /BOOT
-    mount /dev/sda1 /BOOT 
+    mount /dev/sda1 /BOOT
     mv /mnt/boot/* /BOOT/
 
 4. Unmount /BOOT/
@@ -104,10 +104,10 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
  ::
 
-    mount /dev/sda1 /mnt/boot/ 
-    mount --bind /dev /mnt/dev 
-    mount --bind /sys /mnt/sys 
-    mount --bind /proc/ /mnt/proc 
+    mount /dev/sda1 /mnt/boot/
+    mount --bind /dev /mnt/dev
+    mount --bind /sys /mnt/sys
+    mount --bind /proc/ /mnt/proc
     chroot /mnt/
 
 **Install grub**
@@ -116,13 +116,13 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
  ::
 
-     grub2-install /dev/sda 
+     grub2-install /dev/sda
 
 - **Ubuntu**
 
  ::
 
-    grub-install /dev/sda 
+    grub-install /dev/sda
     grub-update
 
 **Updating fstab**
@@ -132,9 +132,9 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
  ::
 
-    blkid /dev/sda1 
+    blkid /dev/sda1
 
- Ex Output: 
+ Ex Output:
 
  ::
 
@@ -144,9 +144,9 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
  Ex::
 
-    /dev/mapper/centos-root / xfs defaults 1 1 
-    #UUID=49eb6416-2512-4129-a4be-f043c45561d5 /boot xfs defaults 1 2 
-    /dev/mapper/centos-swap swap swap defaults 0 0 
+    /dev/mapper/centos-root / xfs defaults 1 1
+    #UUID=49eb6416-2512-4129-a4be-f043c45561d5 /boot xfs defaults 1 2
+    /dev/mapper/centos-swap swap swap defaults 0 0
     UUID=05221ad7-e319-4339-bb54-36b40f3b1b04 /boot xfs defaults 1 2
 
 **Regenerate grub config file**
@@ -160,9 +160,9 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
  ::
 
     exit
-    umount /mnt/dev/ 
-    umount /mnt/sys/ 
-    umount /mnt/proc/ 
+    umount /mnt/dev/
+    umount /mnt/sys/
+    umount /mnt/proc/
     umount /mnt/boot/
 
 **Network interface and MAC address**
@@ -227,7 +227,7 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
     net.ifnames=0
 
- at the end of 
+ at the end of
 
  ::
 
@@ -249,13 +249,13 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
     sudo lshw -C network
 
- Then modify the hardware address in 
+ Then modify the hardware address in
 
  ::
 
-    /etc/udev/rules.d/70-persistent-net.rules 
+    /etc/udev/rules.d/70-persistent-net.rules
 
- If that doesn't help modify grub to include this at the end 
+ If that doesn't help modify grub to include this at the end
 
  ::
 
@@ -265,7 +265,7 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
  ::
 
-    GRUB_CMDLINE_LINUX= 
+    GRUB_CMDLINE_LINUX=
 
  After that run
 
