@@ -47,8 +47,7 @@ how some of the options work.
 
  If you want to run backups automatically, the best way to do that would be to set this up through Cron job.
 
-- Please note that if you want this to run automatically to a separate machine, you will need to configure SSH key pair so that a
-password is not needed to be entered.
+- Please note that SSH key pair is required for this to run automatically. 
 
 **Compress and move the files to another server**
 
