@@ -2,9 +2,11 @@
 How to Create Backups on Linux
 ==============================
 
-There are various different methods to creating backups on Linux and also may be dependent on your distribution as well as your
-preferences. Some of these include Tar, DD, Gnome Disk Utility, Acrois True Image, Norton Ghost for Linux, and CloneZilla to name a few.
-However in this article, we will be using rsync as our example.
+There are various different methods to creating backups on Linux and also may
+be dependent on your distribution as well as your preferences. Some of these
+include Tar, DD, Gnome Disk Utility, Acrois True Image, Norton Ghost for
+inux, and CloneZilla to name a few. However in this article, we will be using
+rsync as our example.
 
 Please note that the majority of the information in this article was gathered from
 `SpiceWorks <https://community.spiceworks.com/how_to/114945-centos-7-backup-and-restore>`_.
@@ -47,7 +49,7 @@ how some of the options work.
 
  If you want to run backups automatically, the best way to do that would be to set this up through Cron job.
 
-- Please note that SSH key pair is required for this to run automatically. 
+- Please note that SSH key pair is required for this to run automatically.
 
 **Compress and move the files to another server**
 
