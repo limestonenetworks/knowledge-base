@@ -6,12 +6,10 @@ There are various different methods to creating backups on Linux and also may be
 preferences. Some of these include Tar, DD, Gnome Disk Utility, Acrois True Image, Norton Ghost for Linux, and CloneZilla to name a few.
 However in this article, we will be using rsync as our example.
 
-Please note that the majority of the information in this article was
-gathered from `SpiceWorks
-<https://community.spiceworks.com/how_to/114945-centos-7-backup-and-restore>`_.
-I have condensed or removed parts that were either to long, unnecessary,
-or irrelevant to just doing a backup. I have also put additional
-examples and a few links to help with understanding how some of the options work. 
+Please note that the majority of the information in this article was gathered from `SpiceWorks
+<https://community.spiceworks.com/how_to/114945-centos-7-backup-and-restore>`_. I have condensed or removed parts that were either to
+long, unnecessary, or irrelevant to just doing a backup. I have also put additional examples and a few links to help with understanding
+how some of the options work. 
 
  **Install rysnc**
 
@@ -41,17 +39,20 @@ examples and a few links to help with understanding how some of the options work
 
  ::
 
-    rsync -aAXv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/user/backup"} /* /home/user/backup
+    rsync -aAXv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/user/backup"} /*
+    /home/user/backup
 
  **Automatic Backups**
 
  If you want to run backups automatically, the best way to do that would be to set this up through Cron job.
 
-- Please note that if you want this to run automatically to a separate machine, you will need to configure SSH key pair so that a password is not needed to be entered. 
+- Please note that if you want this to run automatically to a separate machine, you will need to configure SSH key pair so that a
+password is not needed to be entered. 
 
 **Compress and move the files to another server**
 
- Compress using tar with the appropriate `options <https://www.tecmint.com/18-tar-command-examples-in-linux/>`_. You will want to put this into another directory so that tar does not include the .tar file in the archive.
+ Compress using tar with the appropriate `options <https://www.tecmint.com/18-tar-command-examples-in-linux/>`_. You will want to put
+ this into another directory so that tar does not include the .tar file in the archive.
 
  ::
 
@@ -65,7 +66,8 @@ examples and a few links to help with understanding how some of the options work
     scp /home/user/server-backup.tar 
     user@ipaddress:/locationofdestination/server-backup.tar
 
- Alternatively you can also use an application such as `WinSCP <https://winscp.net/eng/download.php>`_ to download the file to your Windows desktop.
+ Alternatively you can also use an application such as `WinSCP <https://winscp.net/eng/download.php>`_ to download the file to your
+ Windows desktop.
 
 **Restore your Backup**
 
@@ -166,7 +168,8 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
 - **Redhat/CentOS**
 
- Your interface and MAC address so you will need to reconfigure your network config file. Using either ip addr or ifconfig -a you should find the correct network adapter name as well as the mac address.
+ Your interface and MAC address so you will need to reconfigure your network config file. Using either ip addr or ifconfig -a you should
+ find the correct network adapter name as well as the mac address.
 
  ::
 
@@ -181,7 +184,8 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
         TX packets 10015  bytes 603201 (589.0 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
- Once you get the correct MAC and network name, you can edit your config file accordingly. I typically just remove the MAC address all together as it isn't required and just change the device name in the config file.
+ Once you get the correct MAC and network name, you can edit your config file accordingly. I typically just remove the MAC address all
+ together as it isn't required and just change the device name in the config file.
 
  Here we see the configuration file is named eth0
 
@@ -199,7 +203,8 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
     ifdown-ipv6      ifup             ifup-post   network-functions
     ifdown-isdn      ifup-aliases     ifup-ppp    network-functions-ipv6
 
- You'll want to open the config file in a text editor (i.e. vi, vim, nano), change the MAC address to the new one or remove it completely. Below I have commented(#) it out as this disables it. You will also want to change the DEVICE name accordingly.
+ You'll want to open the config file in a text editor (i.e. vi, vim, nano), change the MAC address to the new one or remove it
+ completely. Below I have commented(#) it out as this disables it. You will also want to change the DEVICE name accordingly.
 
  ::
 
@@ -236,7 +241,8 @@ Once you have re-installed your OS has been reinstalled, you can copy the file b
 
 - **Ubuntu**
 
- On Ubuntu your network config will also likely need to be modified to work correctly. Use the following to find the following network devices and configure accordingly.
+ On Ubuntu your network config will also likely need to be modified to work correctly. Use the following to find the following network
+ devices and configure accordingly.
 
  ::
 
