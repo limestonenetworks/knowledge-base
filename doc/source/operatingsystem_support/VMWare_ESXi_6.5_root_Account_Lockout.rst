@@ -33,8 +33,9 @@ walk you through how to do this but you will need to be logged into the
 
  Login to your server
  Click on **Troubleshooting Options** → **Restart Management Agents**
- → Press **F11** to restart agents, here you'll see that you also have an option
- to **Collect extra troubleshooting information**. Check the box if you'd like.
+ → Press **F11** to restart agents, here you'll see that you also have an
+ option to **Collect extra troubleshooting information**. Check the box if
+ you'd like.
 
 .. image:: /image/ManagementAgents1.png
 .. image:: /image/ManagementAgents2.png
